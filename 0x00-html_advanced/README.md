@@ -5,7 +5,7 @@
 ## Concepts
 - For this project, we expect you to look at this concept:
 
-[HTML - elements of a web page]()
+- [HTML - elements of a web page](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x00-html_advanced/HTML.md)
 
 
 # Welcome!
@@ -53,9 +53,86 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 ![img](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x00-html_advanced/wireframe.png)
 
 ## Quiz questions
+<details>
+  <summary>Great! You've completed the quiz successfully! Keep going! (Show quiz)</summary>
+### Question #0
+Which tag should we use to draw an horizontal line? (usually used to separate topics in a paragraph)
 
-Great! You've completed the quiz successfully! Keep going! (Show quiz)
-Tasks
+- [ ] <br>
+- [ ] <line>
+- [x] <hr>
+- [ ] <break>
+
+### Question #1
+How many levels are available in HTML5 for section headings?
+- [ ] 2
+- [x] 6
+- [ ] 1
+- [ ] 8
+- [ ] 10
+- [ ] 4
+
+### Question #2
+Which tag should we use to change the font weight of a text?
+Please select all correct answers
+- [x] <b>
+- [ ] <em>
+- [ ] <h1>
+- [x] <strong>
+- [ ] <bold>
+- [ ] <i>
+
+### Question #3
+Which tag should we use to embed an image?
+- [ ] <iframe>
+- [x] <img>
+- [ ] <caption>
+- [ ] <div>
+
+### Question #4
+Which tag should we use to change the browser tab text?
+- [x] <title>
+- [ ] <head>
+- [ ] <browser>
+- [ ] <tab>
+
+### Question #5
+Which tag should we use to embed another website?
+- [ ] <div>
+- [ ] <a>
+- [ ] <p>
+- [ ] <code>
+- [x] <iframe>
+
+### Question #6
+Which tag should we use to create an hyperlink?
+- [ ] <link>
+- [ ] <to>
+- [ ] <div>
+- [x] <a>
+- [ ] <p>
+
+### Question #7
+Which tag should we use to group elements in an unordered list?
+- [x] <ul>
+- [ ] <table>
+- [ ] <li>
+- [ ] <unordered list>
+- [ ] <list>
+- [ ] <ol>
+
+### Question #8
+Which information can we find in the tag head? Please select all correct answers
+
+- [ ] navigation
+- [x] metadata
+- [x] link to stylesheets
+- [ ] link to Twitter
+
+</details>
+
+
+# Tasks
 0. Create your first webpage
 mandatory
 Create your first HTML file 0-index.html with:
