@@ -141,9 +141,6 @@ Which information can we find in the tag head? Please select all correct answers
 
 
 # Tasks
-<details>
-  <summary>Show Tasks</summary>
-
 ## Task 0. Create your first webpage
 mandatory
 Create your first HTML file 0-index.html with:
@@ -1073,7 +1070,7 @@ Repo:
 GitHub repository: alx-frontend
 Directory: 0x00-html_advanced
 File: styleguide.html
-</details>  
+  
 Copyright © 2024 ALX, All rights reserved.
 
 
