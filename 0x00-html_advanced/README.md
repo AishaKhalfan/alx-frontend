@@ -56,15 +56,15 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 Great! You've completed the quiz successfully! Keep going!
 <details>
   <summary>(Show quiz)</summary>
-### Question #0
-Which tag should we use to draw an horizontal line? (usually used to separate topics in a paragraph)
 
+## Question #0
+Which tag should we use to draw an horizontal line? (usually used to separate topics in a paragraph)
 - [ ] <br>
 - [ ] <line>
 - [x] <hr>
 - [ ] <break>
 
-### Question #1
+## Question #1
 How many levels are available in HTML5 for section headings?
 - [ ] 2
 - [x] 6
@@ -73,7 +73,7 @@ How many levels are available in HTML5 for section headings?
 - [ ] 10
 - [ ] 4
 
-### Question #2
+## Question #2
 Which tag should we use to change the font weight of a text?
 Please select all correct answers
 - [x] <b>
@@ -83,21 +83,21 @@ Please select all correct answers
 - [ ] <bold>
 - [ ] <i>
 
-### Question #3
+## Question #3
 Which tag should we use to embed an image?
 - [ ] <iframe>
 - [x] <img>
 - [ ] <caption>
 - [ ] <div>
 
-### Question #4
+## Question #4
 Which tag should we use to change the browser tab text?
 - [x] <title>
 - [ ] <head>
 - [ ] <browser>
 - [ ] <tab>
 
-### Question #5
+## Question #5
 Which tag should we use to embed another website?
 - [ ] <div>
 - [ ] <a>
@@ -105,7 +105,7 @@ Which tag should we use to embed another website?
 - [ ] <code>
 - [x] <iframe>
 
-### Question #6
+## Question #6
 Which tag should we use to create an hyperlink?
 - [ ] <link>
 - [ ] <to>
@@ -113,7 +113,7 @@ Which tag should we use to create an hyperlink?
 - [x] <a>
 - [ ] <p>
 
-### Question #7
+## Question #7
 Which tag should we use to group elements in an unordered list?
 - [x] <ul>
 - [ ] <table>
@@ -122,13 +122,14 @@ Which tag should we use to group elements in an unordered list?
 - [ ] <list>
 - [ ] <ol>
 
-### Question #8
+## Question #8
 Which information can we find in the tag head? Please select all correct answers
 
 - [ ] navigation
 - [x] metadata
 - [x] link to stylesheets
 - [ ] link to Twitter
+
 </details>
 
 
