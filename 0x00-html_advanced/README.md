@@ -56,7 +56,6 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 Great! You've completed the quiz successfully! Keep going!
 <details>
   <summary>(Show quiz)</summary>
-```
 
 ## Question 0
 Which tag should we use to draw an horizontal line? (usually used to separate topics in a paragraph)
@@ -130,11 +129,13 @@ Which information can we find in the tag head? Please select all correct answers
 - [x] metadata
 - [x] link to stylesheets
 - [ ] link to Twitter
-```
 </details>
 
 
 # Tasks
+<details>
+  <summary>Show Tasks</summary>
+
 0. Create your first webpage
 mandatory
 Create your first HTML file 0-index.html with:
@@ -1064,7 +1065,7 @@ Repo:
 GitHub repository: alx-frontend
 Directory: 0x00-html_advanced
 File: styleguide.html
-  
+</details>  
 Copyright © 2024 ALX, All rights reserved.
 
 
