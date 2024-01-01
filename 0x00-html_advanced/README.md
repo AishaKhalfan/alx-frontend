@@ -47,12 +47,13 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - ``Techium`` will be the name of the company we will use across our webpages.
 
 ## Sitemap of the project
-![img]()
+![img](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x00-html_advanced/sitemap.png)
 
-Wireframe of Techium project
+## Wireframe of Techium project
+![img](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x00-html_advanced/wireframe.png)
 
+## Quiz questions
 
-Quiz questions
 Great! You've completed the quiz successfully! Keep going! (Show quiz)
 Tasks
 0. Create your first webpage
