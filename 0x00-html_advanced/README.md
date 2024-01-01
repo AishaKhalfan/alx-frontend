@@ -59,6 +59,7 @@ Great! You've completed the quiz successfully! Keep going!
 
 ## Question 0
 Which tag should we use to draw an horizontal line? (usually used to separate topics in a paragraph)
+
 - [ ] <br>
 - [ ] <line>
 - [x] <hr>
@@ -66,6 +67,7 @@ Which tag should we use to draw an horizontal line? (usually used to separate to
 
 ## Question 1
 How many levels are available in HTML5 for section headings?
+
 - [ ] 2
 - [x] 6
 - [ ] 1
@@ -76,6 +78,7 @@ How many levels are available in HTML5 for section headings?
 ## Question 2
 Which tag should we use to change the font weight of a text?
 Please select all correct answers
+
 - [x] <b>
 - [ ] <em>
 - [ ] <h1>
@@ -85,6 +88,7 @@ Please select all correct answers
 
 ## Question 3
 Which tag should we use to embed an image?
+
 - [ ] <iframe>
 - [x] <img>
 - [ ] <caption>
@@ -92,6 +96,7 @@ Which tag should we use to embed an image?
 
 ## Question 4
 Which tag should we use to change the browser tab text?
+
 - [x] <title>
 - [ ] <head>
 - [ ] <browser>
@@ -99,6 +104,7 @@ Which tag should we use to change the browser tab text?
 
 ## Question 5
 Which tag should we use to embed another website?
+
 - [ ] <div>
 - [ ] <a>
 - [ ] <p>
@@ -107,6 +113,7 @@ Which tag should we use to embed another website?
 
 ## Question 6
 Which tag should we use to create an hyperlink?
+
 - [ ] <link>
 - [ ] <to>
 - [ ] <div>
@@ -115,6 +122,7 @@ Which tag should we use to create an hyperlink?
 
 ## Question 7
 Which tag should we use to group elements in an unordered list?
+
 - [x] <ul>
 - [ ] <table>
 - [ ] <li>
@@ -136,7 +144,7 @@ Which information can we find in the tag head? Please select all correct answers
 <details>
   <summary>Show Tasks</summary>
 
-0. Create your first webpage
+## Task 0. Create your first webpage
 mandatory
 Create your first HTML file 0-index.html with:
 
@@ -152,7 +160,7 @@ GitHub repository: alx-frontend
 Directory: 0x00-html_advanced
 File: 0-index.html
   
-1. Structure your webpage
+## Task 1. Structure your webpage
 mandatory
 Copy the content of 0-index.html into 1-index.html
 
@@ -167,7 +175,7 @@ GitHub repository: alx-frontend
 Directory: 0x00-html_advanced
 File: 1-index.html
   
-2. The head - meta charset, viewport, title, description, favicons
+## Task 2. The head - meta charset, viewport, title, description, favicons
 mandatory
 Copy the content of 1-index.html into 2-index.html
 
@@ -213,7 +221,7 @@ GitHub repository: alx-frontend
 Directory: 0x00-html_advanced
 File: 2-index.html
   
-3. Simple header, main, footer
+## Task 3. Simple header, main, footer
 mandatory
 Copy the content of 2-index.html into 3-index.html
 
@@ -235,7 +243,7 @@ GitHub repository: alx-frontend
 Directory: 0x00-html_advanced
 File: 3-index.html
   
-4. Aside
+## Task 4. Aside
 mandatory
 Copy the contents of 3-index.html into article.html
 
@@ -248,7 +256,7 @@ GitHub repository: alx-frontend
 Directory: 0x00-html_advanced
 File: article.html
   
-5. Section
+## Task 5. Section
 mandatory
 Copy the content of 3-index.html into 5-index.html
 
@@ -269,7 +277,7 @@ GitHub repository: alx-frontend
 Directory: 0x00-html_advanced
 File: 5-index.html
   
-6. Work, News, Testimonial articles
+## Task 6. Work, News, Testimonial articles
 mandatory
 Copy the content of 5-index.html into 6-index.html
 
@@ -296,7 +304,7 @@ GitHub repository: alx-frontend
 Directory: 0x00-html_advanced
 File: 6-index.html
   
-7. Navigation
+## Task 7. Navigation
 mandatory
 Copy the content of 6-index.html into 7-index.html
 
@@ -311,7 +319,7 @@ GitHub repository: alx-frontend
 Directory: 0x00-html_advanced
 File: 7-index.html
   
-8. Level 1 headings
+## Task 8. Level 1 headings
 mandatory
 Copy the content of 7-index.html into 8-index.html
 
@@ -325,7 +333,7 @@ GitHub repository: alx-frontend
 Directory: 0x00-html_advanced
 File: 8-index.html
   
-9. Level 2 headings
+## Task 9. Level 2 headings
 mandatory
 Copy the content of 8-index.html into 9-index.html
 
@@ -344,7 +352,7 @@ GitHub repository: alx-frontend
 Directory: 0x00-html_advanced
 File: 9-index.html
   
-10. Level 3 headings
+## Task 10. Level 3 headings
 mandatory
 Copy the content of 9-index.html into 10-index.html
 
@@ -383,7 +391,7 @@ GitHub repository: alx-frontend
 Directory: 0x00-html_advanced
 File: 10-index.html
   
-11. styleguide
+## Task 11. styleguide
 mandatory
 Copy the content of 3-index.html into 11-styleguide.html
 
@@ -405,7 +413,7 @@ GitHub repository: alx-frontend
 Directory: 0x00-html_advanced
 File: 11-styleguide.html
   
-12. Paragraphs
+## Task 12. Paragraphs
 mandatory
 Copy the content of 10-index.html into 12-index.html
 
@@ -446,7 +454,7 @@ GitHub repository: alx-frontend
 Directory: 0x00-html_advanced
 File: 12-index.html
   
-13. styleguide paragraphs
+## Task 13. styleguide paragraphs
 mandatory
 Copy the contents of 11-styleguide.html into 13-styleguide.html
 
@@ -462,7 +470,7 @@ GitHub repository: alx-frontend
 Directory: 0x00-html_advanced
 File: 13-styleguide.html
   
-14. Span
+## Task 14. Span
 mandatory
 Copy the contents of 12-index.html into 14-index.html
 
@@ -477,7 +485,7 @@ GitHub repository: alx-frontend
 Directory: 0x00-html_advanced
 File: 14-index.html
   
-15. Div
+## Task 15. Div
 mandatory
 Copy the contents of 14-index.html into 15-index.html
 
@@ -492,7 +500,7 @@ GitHub repository: alx-frontend
 Directory: 0x00-html_advanced
 File: 15-index.html
   
-16. Structure your sections
+## Task 16. Structure your sections
 mandatory
 Copy the contents of 15-index.html into 16-index.html
 
@@ -522,7 +530,7 @@ GitHub repository: alx-frontend
 Directory: 0x00-html_advanced
 File: 16-index.html
   
-17. Comments
+## Task 17. Comments
 mandatory
 Copy the content of 16-index.html into 17-index.html
 
@@ -544,7 +552,7 @@ GitHub repository: alx-frontend
 Directory: 0x00-html_advanced
 File: 17-index.html
   
-18. link your logo
+## Task 18. link your logo
 mandatory
 Copy the content of 17-index.html into 18-index.html
 
@@ -558,7 +566,7 @@ GitHub repository: alx-frontend
 Directory: 0x00-html_advanced
 File: 18-index.html
   
-19. Create new pages
+## Task 19. Create new pages
 mandatory
 Copy the content of 18-index.html into about.html, latest_news.html and contact.html
 
@@ -573,7 +581,7 @@ GitHub repository: alx-frontend
 Directory: 0x00-html_advanced
 File: about.html, latest_news.html, contact.html
   
-20. Add links
+## Task 20. Add links
 mandatory
 Copy the content of 18-index.html into 20-index.html
 
@@ -595,7 +603,7 @@ GitHub repository: alx-frontend
 Directory: 0x00-html_advanced
 File: 20-index.html
   
-21. Add social media links
+## Task 21. Add social media links
 mandatory
 Copy the content of 20-index.html into 21-index.html
 
@@ -612,7 +620,7 @@ GitHub repository: alx-frontend
 Directory: 0x00-html_advanced
 File: 21-index.html
   
-22. "Button" links
+## Task 22. "Button" links
 mandatory
 Copy the content of 21-index.html into 22-index.html
 
@@ -630,7 +638,7 @@ GitHub repository: alx-frontend
 Directory: 0x00-html_advanced
 File: 22-index.html
   
-23. Services, Works, Latest news links
+## Task 23. Services, Works, Latest news links
 mandatory
 Copy the content of 22-index.html into 23-index.html
 
@@ -648,7 +656,7 @@ GitHub repository: alx-frontend
 Directory: 0x00-html_advanced
 File: 23-index.html
   
-24. List the links
+## Task 24. List the links
 mandatory
 Copy the content of 23-index.html into 24-index.html
 
@@ -664,7 +672,7 @@ GitHub repository: alx-frontend
 Directory: 0x00-html_advanced
 File: 24-index.html
   
-25. Secondary navigation menu
+## Task 25. Secondary navigation menu
 mandatory
 Copy the content of 24-index.html into 25-index.html
 
@@ -680,7 +688,7 @@ GitHub repository: alx-frontend
 Directory: 0x00-html_advanced
 File: 25-index.html
   
-26. Examples of lists for the styleguide
+## Task 26. Examples of lists for the styleguide
 mandatory
 Copy the content of 13-styleguide.html into 26-styleguide.html
 
@@ -715,7 +723,7 @@ GitHub repository: alx-frontend
 Directory: 0x00-html_advanced
 File: 26-styleguide.html
   
-27. Separate content
+## Task 27. Separate content
 mandatory
 Copy the content of 25-index.html into 27-index.html
 
@@ -730,7 +738,7 @@ GitHub repository: alx-frontend
 Directory: 0x00-html_advanced
 File: 27-index.html
   
-28. Horizontal rule example
+## Task 28. Horizontal rule example
 mandatory
 Copy the content of 26-styleguide.html into 28-styleguide.html
 
@@ -745,7 +753,7 @@ GitHub repository: alx-frontend
 Directory: 0x00-html_advanced
 File: 28-styleguide.html
   
-29. Client quotes
+## Task 29. Client quotes
 mandatory
 Copy the content of 27-index.html into 29-index.html
 
@@ -764,7 +772,7 @@ GitHub repository: alx-frontend
 Directory: 0x00-html_advanced
 File: 29-index.html
   
-30. Examples of quotes
+## Task 30. Examples of quotes
 mandatory
 Copy the content of 28-styleguide.html into 30-styleguide.html
 
@@ -788,7 +796,7 @@ GitHub repository: alx-frontend
 Directory: 0x00-html_advanced
 File: 30-styleguide.html
   
-31. Address and latest news authors
+## Task 31. Address and latest news authors
 mandatory
 Copy the content of 29-index.html into 31-index.html
 
@@ -806,7 +814,7 @@ GitHub repository: alx-frontend
 Directory: 0x00-html_advanced
 File: 31-index.html
   
-32. Typography section - using the correct tags
+## Task 32. Typography section - using the correct tags
 mandatory
 Copy the content of 30-styleguide.html into 32-styleguide.html
 
@@ -831,7 +839,7 @@ GitHub repository: alx-frontend
 Directory: 0x00-html_advanced
 File: 32-styleguide.html
   
-33. Table
+## Task 33. Table
 mandatory
 Copy the content of 32-styleguide.html into 33-styleguide.html
 
@@ -852,7 +860,7 @@ GitHub repository: alx-frontend
 Directory: 0x00-html_advanced
 File: 33-styleguide.html
   
-34. Details
+## Task 34. Details
 mandatory
 Copy the content of 33-styleguide.html into 34-styleguide.html
 
@@ -876,7 +884,7 @@ GitHub repository: alx-frontend
 Directory: 0x00-html_advanced
 File: 34-styleguide.html
   
-35. Replace text logo with image logo
+## Task 35. Replace text logo with image logo
 mandatory
 
 
@@ -900,7 +908,7 @@ GitHub repository: alx-frontend
 Directory: 0x00-html_advanced
 File: 35-index.html
   
-36. Add images to your sections
+## Task 36. Add images to your sections
 mandatory
 Copy the content of 35-index.html into 36-index.html
 
@@ -966,7 +974,7 @@ GitHub repository: alx-frontend
 Directory: 0x00-html_advanced
 File: 36-index.html
   
-37. Social icons
+## Task 37. Social icons
 mandatory
 Copy the content of 36-index.html into index.html (the final file!)
 
@@ -1001,7 +1009,7 @@ GitHub repository: alx-frontend
 Directory: 0x00-html_advanced
 File: index.html
   
-38. Add a video player in the styleguide
+## Task 38. Add a video player in the styleguide
 mandatory
 Copy the content of 34-styleguide.html into 38-styleguide.html
 
@@ -1022,7 +1030,7 @@ GitHub repository: alx-frontend
 Directory: 0x00-html_advanced
 File: 38-styleguide.html
   
-39. Add an audio player in the styleguide
+## Task 39. Add an audio player in the styleguide
 mandatory
 Copy the content of 38-styleguide.html into 39-styleguide.html
 
@@ -1041,7 +1049,7 @@ GitHub repository: alx-frontend
 Directory: 0x00-html_advanced
 File: 39-styleguide.html
   
-40. Add a iframe example in the styleguide
+## Task 40. Add a iframe example in the styleguide
 mandatory
 Copy the content of 39-styleguide.html into styleguide.html
 
