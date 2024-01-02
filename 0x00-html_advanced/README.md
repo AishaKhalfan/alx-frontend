@@ -608,10 +608,10 @@ Repo:
 ## Task 27. Separate content
 Copy the content of 25-index.html into 27-index.html
 
-in the footer between the two divs:
-add a horizontal rule
-after the horizontal rule add a paragraph with text © 2020 Techium, made with ♥ by students at Holberton School.
-W3C does not need to pass.
+- in the footer between the two divs:
+	- add a horizontal rule
+	- after the horizontal rule add a paragraph with text © 2020 Techium, made with ♥ by students at Holberton School.
+**W3C does not need to pass.**
 
 Repo:
 - GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
@@ -621,11 +621,11 @@ Repo:
 ## Task 28. Horizontal rule example
 Copy the content of 26-styleguide.html into 28-styleguide.html
 
-in main after Lists section
-add a new line and a comment with the text Horizontal rule
-create a new section
-create a header and inside it add a level 2 heading with the text Horizontal rule
-after the header create a div and put a horizontal rule in it
+- in main after Lists section
+	- add a new line and a comment with the text Horizontal rule
+	- create a new section
+		- create a header and inside it add a level 2 heading with the text Horizontal rule
+		- after the header create a div and put a horizontal rule in it
 
 Repo:
 - GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
@@ -635,14 +635,14 @@ Repo:
 ## Task 29. Client quotes
 Copy the content of 27-index.html into 29-index.html
 
-in the Testimonials section
-in the first article
-replace the text with a blockquote with text I am completely blown away. Thanks to Techium, we've just launched our 5th website! and cite author Yuri Y.
-in the second article
-replace the text with a blockquote with text Thank you so much for your help. Techium company is awesome! and cite author Dorrie S.
-in the third article
-replace the text with a blockquote with text I love your system. Definitely worth the investment. I'd be lost without Techium company. and cite author Sven H.
-W3C does not need to pass
+- in the Testimonials section
+	- in the first article
+		- replace the text with a blockquote with text I am completely blown away. Thanks to Techium, we've just launched our 5th website! and cite author Yuri Y.
+	- in the second article
+		- replace the text with a blockquote with text Thank you so much for your help. Techium company is awesome! and cite author Dorrie S.
+	- in the third article
+		- replace the text with a blockquote with text I love your system. Definitely worth the investment. I'd be lost without Techium company. and cite author Sven H.
+**W3C does not need to pass**
 
 Repo:
 - GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
@@ -653,20 +653,20 @@ Repo:
 
 Copy the content of 28-styleguide.html into 30-styleguide.html
 
-Example of inline quote:
+**Example of inline quote:**
 
-inside main after Horizontal rule section
-add a new line and a comment with text Blockquotes
-create a new section
-in the section create a header, in the header create a level 2 heading with text Blockquotes
-after the header, create a div
-in the div add a level 3 heading with the text Inline quote
-add an inline quote with the text Stay hungry. Stay foolish.
-Example of blockquote:
+- inside main after Horizontal rule section
+	- add a new line and a comment with text Blockquotes
+	- create a new section
+		- in the section create a header, in the header create a level 2 heading with text Blockquotes
+		- after the header, create a div
+			- in the div add a level 3 heading with the text Inline quote
+			- add an inline quote with the text Stay hungry. Stay foolish.
+**Example of blockquote:**
 
-after the inline quote div, create another div
-in the new div add a level 3 heading with the text Blockquote
-add a multiline quote with the text I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. and cite Kanye West, Musician
+- after the inline quote div, create another div
+	- in the new div add a level 3 heading with the text Blockquote
+	- add a multiline quote with the text I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. and cite Kanye West, Musician
 Repo:
 - GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
 - Directory: [0x00-html_advanced](https://github.com/AishaKhalfan/alx-frontend/tree/master/0x00-html_advanced)
@@ -675,13 +675,13 @@ Repo:
 ## Task 31. Address and latest news authors
 Copy the content of 29-index.html into 31-index.html
 
-in the footer
-right after open footer tag, put the following address: 234 Washington Street (line-break) Urbana, Illinois
-in the Latest news section
-in the first article, after the last paragraph, add the author name in small print: By Kelly D.
-in the second article, after the last paragraph, add the author name in small print: By William A.
-in the third article, after the last paragraph, add the author name in small print: By Frances J.
-W3C does not need to pass
+- in the footer
+	- right after open footer tag, put the following address: 234 Washington Street (line-break) Urbana, Illinois
+- in the Latest news section
+	- in the first article, after the last paragraph, add the author name in small print: By Kelly D.
+	- in the second article, after the last paragraph, add the author name in small print: By William A.
+	- in the third article, after the last paragraph, add the author name in small print: By Frances J.
+**W3C does not need to pass**
 
 Repo:
 - GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
@@ -691,20 +691,22 @@ Repo:
 ## Task 32. Typography section - using the correct tags
 Copy the content of 30-styleguide.html into 32-styleguide.html
 
-inside main after the Blockquotes section
+- inside main after the Blockquotes section
 
-add a new line and a comment with text Typography
-create a new section
+	- add a new line and a comment with text Typography
+	- create a new section
 
-in the section create a header and inside it add a level 2 heading with the text Typography
-after the header create a div, inside the div add this text with the correct HTML tag: 320 Stewart Avenue, Unit 12 (line break) New York City NY 10001, the city, state, and postal code should be on a separate line
-create another div, in the new div nest this code block using the pre HTML tag:
+		- in the section create a header and inside it add a level 2 heading with the text Typography
+		- after the header create a div, inside the div add this text with the correct HTML tag: 320 Stewart Avenue, Unit 12 (line break) New York City NY 10001, the city, state, and postal code should be on a separate line
+		- create another div, in the new div nest this code block using the pre HTML tag:
+```html
  <code>
      <h2>My title</h2>
      <p>Proin lacus turpis, feugiat sit amet sollicitudin non, volutpat in libero. Aenean hendrerit ultrices nulla ac lobortis. Vestibulum consectetur nibh vel ante rhoncus faucibus.</p>
  </code>
-create another div, in the new div add this paragraph of text with the correct HTML tag: Curabitur sit amet turpis cursus massa mollis highlighted. Duis finibus leo massa, eget dapibus erat finibus sed. Aenean condimentum sapien magna, eleifend highlighted mi consequat ut. Cras nec quam sed sapien ultricies highlighted ut sed metus. Each occurrence of the word highlighted should be highlighted.
-W3C does not need to pass
+```
+		- create another div, in the new div add this paragraph of text with the correct HTML tag: Curabitur sit amet turpis cursus massa mollis highlighted. Duis finibus leo massa, eget dapibus erat finibus sed. Aenean condimentum sapien magna, eleifend highlighted mi consequat ut. Cras nec quam sed sapien ultricies highlighted ut sed metus. Each occurrence of the word highlighted should be highlighted.
+**W3C does not need to pass**
 
 Repo:
 - GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
@@ -714,16 +716,16 @@ Repo:
 ## Task 33. Table
 Copy the content of 32-styleguide.html into 33-styleguide.html
 
-inside main after Typography section
-add a new line and a comment with text Table
-create a new section
-in the section create a header, in the header add a level 2 heading with the text Table
-after the header, create a table, reproduce in HTML the visual below
-
+- inside main after Typography section
+	- add a new line and a comment with text Table
+	- create a new section
+		- in the section create a header, in the header add a level 2 heading with the text Table
+		- after the header, create a table, reproduce in HTML the visual below
+![table](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x00-html_advanced/table.jpg)
 
 The <th> tags containing Title, Director, Release Date should have a scope attribute set to col The <th> tags containing the names of the movies should have a scope attribute set to row
 
-Due to previous task, does not have to pass W3C
+**Due to previous task, does not have to pass W3C**
 
 Repo:
 - GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
