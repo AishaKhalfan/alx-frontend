@@ -6,7 +6,7 @@
 - For this project, we expect you to look at this concept:
 
 - [HTML - elements of a web page](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x00-html_advanced/HTML.md)
-
+![img](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x00-html_advanced/yeah.jpg)
 
 # Welcome!
 Welcome to the Web Stack specialization. The 3 first projects will give you all basics of the Web development: HTML, CSS and Developer tools.
@@ -54,126 +54,115 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 ## Quiz questions
 Great! You've completed the quiz successfully! Keep going!
-<details>
-	<summary>[show quiz]((https://github.com/AishaKhalfan/alx-frontend/blob/master/0x00-html_advanced/Quiz.md)</summary>
-</details>
+- [show quiz]((https://github.com/AishaKhalfan/alx-frontend/blob/master/0x00-html_advanced/Quiz.md)
 
 
 # Tasks
 ## Task 0. Create your first webpage
-mandatory
 Create your first HTML file 0-index.html with:
 
-Add the doctype on the first line (without any comment)
-After the doctype, open and close a html tag
-Add the language tag, specify English for ISO language code and add the direction tag (ltr or rtl) on the html tag.
-Open your file in your browser (the page should be blank)
+- Add the doctype on the first line (without any comment)
+- After the doctype, open and close a html tag
+- Add the language tag, specify English for [ISO language code](https://www.sitepoint.com/iso-2-letter-language-codes/) and add the direction tag (ltr or rtl) on the html tag.
+- Open your file in your browser (the page should be blank)
 W3C won’t pass - you can ignore it
 
 Repo:
 
-GitHub repository: alx-frontend
-Directory: 0x00-html_advanced
-File: 0-index.html
+- GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
+- Directory: [0x00-html_advanced](https://github.com/AishaKhalfan/alx-frontend/tree/master/0x00-html_advanced)
+- File: [0-index.html]()
   
 ## Task 1. Structure your webpage
-mandatory
-Copy the content of 0-index.html into 1-index.html
+Copy the content of ``0-index.html`` into ``1-index.html``
 
-Create the head and body sections
+**Create the head and body sections**
 
-inside the html tag, create the head and body tags (empty) in this order
+- inside the html tag, create the head and body tags (empty) in this order
 W3C won’t pass - you can ignore it
 
 Repo:
+- GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
+- Directory: [0x00-html_advanced](https://github.com/AishaKhalfan/alx-frontend/tree/master/0x00-html_advanced)
+- File: 1-index.html
 
-GitHub repository: alx-frontend
-Directory: 0x00-html_advanced
-File: 1-index.html
-  
 ## Task 2. The head - meta charset, viewport, title, description, favicons
-mandatory
-Copy the content of 1-index.html into 2-index.html
+Copy the content of ``1-index.html`` into ``2-index.html``
+![img](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x00-html_advanced/t.jpg)
+**Meta charset:**
 
+- add a meta tag inside the head:
+	- add the charset attribute with the value utf-8
+**Viewport:**
 
+- add a meta tag inside the head:
+	- add an attribute name on the tag and specify that it is the meta viewport
+	- add the key width with the value device-width
+	- add the key initial-scale with the value 1.0
+	- add the key viewport-fit with the value cover
+**Title:**
 
-Meta charset:
+- add the title tag just after the meta viewport with value: Homepage - Techium
+**Description:**
 
-add a meta tag inside the head:
-add the charset attribute with the value utf-8
-Viewport:
+- add a meta tag inside the head section
+	- add an attribute name on the tag and specify that is the meta description
+	- add another attribute called content
+	- add the following description: Techium is a digital agency
+**Favicons:**
 
-add a meta tag inside the head:
-add an attribute name on the tag and specify that it is the meta viewport
-add the key width with the value device-width
-add the key initial-scale with the value 1.0
-add the key viewport-fit with the value cover
-Title:
-
-add the title tag just after the meta viewport with value: Homepage - Techium
-Description:
-
-add a meta tag inside the head section
-add an attribute name on the tag and specify that is the meta description
-add another attribute called content
-add the following description: Techium is a digital agency
-Favicons:
-
-download the image above to use as a favicon
-Use the tool at https://realfavicongenerator.net/ to generate all the favicon formats
-take the favicon.ico and favicon.png and place these at the root of your project directory, so that it is siblings with your [0-9]+-index.html files.
-inside the head, create 2 link tags with these 3 attributes: rel, type, and href.
-the first link tag:
-rel: icon
-type: image/x-icon
-href: ./favicon.ico
-the second link tag:
-rel: icon
-type: image/png
-href: ./favicon.png
+- download the image above to use as a favicon
+- Use the tool at [https://realfavicongenerator.net/](https://realfavicongenerator.net/) to generate all the favicon formats
+- take the favicon.ico and favicon.png and place these at the root of your project directory, so that it is siblings with your [0-9]+-index.html files.
+- inside the head, create 2 link tags with these 3 attributes: rel, type, and href.
+	- the first link tag:
+		- rel: icon
+		- type: image/x-icon
+		- href: ./favicon.ico
+	- the second link tag:
+		- rel: icon
+		- type: image/png
+		- href: ./favicon.png
 Repo:
-
-GitHub repository: alx-frontend
-Directory: 0x00-html_advanced
-File: 2-index.html
+- GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
+- Directory: [0x00-html_advanced](https://github.com/AishaKhalfan/alx-frontend/tree/master/0x00-html_advanced)
+- File: 2-index.html
   
 ## Task 3. Simple header, main, footer
-mandatory
-Copy the content of 2-index.html into 3-index.html
+Copy the content of ``2-index.html`` into ``3-index.html``
 
-Header:
+**Header:**
 
-create the header of your page between the open and close body tag
-put the text Header inside the header
-Main:
+- create the header of your page between the open and close body tag
+- put the text Header inside the header
+**Main:**
 
-create the main tag after the header tag
-put the text Main content inside your main tags
-Footer:
+- create the main tag after the header tag
+	- put the text Main content inside your main tags
+**Footer:**
 
-create the footer tag after the main tag
-put the text Footer inside the footer tags
+- create the footer tag after the main tag
+	- put the text Footer inside the footer tags
 Repo:
-
-GitHub repository: alx-frontend
-Directory: 0x00-html_advanced
-File: 3-index.html
+- GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
+- Directory: [0x00-html_advanced](https://github.com/AishaKhalfan/alx-frontend/tree/master/0x00-html_advanced)
+- File: 3-index.html
   
 ## Task 4. Aside
-mandatory
+
 Copy the contents of 3-index.html into article.html
 
 change the <title> to put: Article - Techium
 inside the main tags
 after the text, create the aside tags with text Aside
-Repo:
 
-GitHub repository: alx-frontend
-Directory: 0x00-html_advanced
-File: article.html
+Repo:
+- GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
+- Directory: [0x00-html_advanced](https://github.com/AishaKhalfan/alx-frontend/tree/master/0x00-html_advanced)
+- File: article.html
   
 ## Task 5. Section
-mandatory
+
 Copy the content of 3-index.html into 5-index.html
 
 inside your <main> section
@@ -188,13 +177,11 @@ create seventh section and put the text Contact section inside
 Does not need to pass W3C
 
 Repo:
-
-GitHub repository: alx-frontend
-Directory: 0x00-html_advanced
-File: 5-index.html
+- GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
+- Directory: [0x00-html_advanced](https://github.com/AishaKhalfan/alx-frontend/tree/master/0x00-html_advanced)
+- File: 5-index.html
   
 ## Task 6. Work, News, Testimonial articles
-mandatory
 Copy the content of 5-index.html into 6-index.html
 
 Work articles:
@@ -216,12 +203,11 @@ W3C won’t pass - you can ignore it
 
 Repo:
 
-GitHub repository: alx-frontend
-Directory: 0x00-html_advanced
-File: 6-index.html
+- GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
+- Directory: [0x00-html_advanced](https://github.com/AishaKhalfan/alx-frontend/tree/master/0x00-html_advanced)
+- File: 6-index.html
   
 ## Task 7. Navigation
-mandatory
 Copy the content of 6-index.html into 7-index.html
 
 remove the Header text inside the <header>
@@ -230,13 +216,12 @@ it should remain empty for now
 Does not need to pass W3C
 
 Repo:
-
-GitHub repository: alx-frontend
-Directory: 0x00-html_advanced
-File: 7-index.html
+- GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
+- Directory: [0x00-html_advanced](https://github.com/AishaKhalfan/alx-frontend/tree/master/0x00-html_advanced)
+- File: 7-index.html
   
 ## Task 8. Level 1 headings
-mandatory
+
 Copy the content of 7-index.html into 8-index.html
 
 create the level 1 heading inside your main before your sections
@@ -244,13 +229,12 @@ put text Homepage in your heading tag
 Does not need to pass W3C
 
 Repo:
-
-GitHub repository: alx-frontend
-Directory: 0x00-html_advanced
-File: 8-index.html
+- GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
+- Directory: [0x00-html_advanced](https://github.com/AishaKhalfan/alx-frontend/tree/master/0x00-html_advanced)
+- File: 8-index.html
   
 ## Task 9. Level 2 headings
-mandatory
+
 Copy the content of 8-index.html into 9-index.html
 
 in the section tag with the the text Hero section, remove the text and create a level 2 heading with text We help you build your brand!
@@ -263,13 +247,12 @@ in the section tag with the the text Contact section, remove the text and create
 W3C won’t pass - you can ignore it
 
 Repo:
-
-GitHub repository: alx-frontend
-Directory: 0x00-html_advanced
-File: 9-index.html
+- GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
+- Directory: [0x00-html_advanced](https://github.com/AishaKhalfan/alx-frontend/tree/master/0x00-html_advanced)
+- File: 9-index.html
   
 ## Task 10. Level 3 headings
-mandatory
+
 Copy the content of 9-index.html into 10-index.html
 
 Services headings:
@@ -302,13 +285,12 @@ in the third article replace the text with a level 3 heading with text Bestiarum
 W3C does not need to pass here
 
 Repo:
-
-GitHub repository: alx-frontend
-Directory: 0x00-html_advanced
-File: 10-index.html
+- GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
+- Directory: [0x00-html_advanced](https://github.com/AishaKhalfan/alx-frontend/tree/master/0x00-html_advanced)
+- File: 10-index.html
   
 ## Task 11. styleguide
-mandatory
+
 Copy the content of 3-index.html into 11-styleguide.html
 
 change the title to Styleguide - Techium
@@ -323,14 +305,14 @@ add a level 3 heading with text Heading level 3
 add a level 4 heading with text Heading level 4
 add a level 5 heading with text Heading level 5
 add a level 6 heading with text Heading level 6
-Repo:
 
-GitHub repository: alx-frontend
-Directory: 0x00-html_advanced
-File: 11-styleguide.html
+Repo:
+- GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
+- Directory: [0x00-html_advanced](https://github.com/AishaKhalfan/alx-frontend/tree/master/0x00-html_advanced)
+- File: 11-styleguide.html
   
 ## Task 12. Paragraphs
-mandatory
+
 Copy the content of 10-index.html into 12-index.html
 
 About Us paragraphs:
@@ -365,13 +347,12 @@ below the level 2 Contact heading add a paragraph with text We like to know new 
 Does not need to pass W3C
 
 Repo:
-
-GitHub repository: alx-frontend
-Directory: 0x00-html_advanced
-File: 12-index.html
+- GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
+- Directory: [0x00-html_advanced](https://github.com/AishaKhalfan/alx-frontend/tree/master/0x00-html_advanced)
+- File: 12-index.html
   
 ## Task 13. styleguide paragraphs
-mandatory
+
 Copy the contents of 11-styleguide.html into 13-styleguide.html
 
 After the existing section containing Headings, create a new section in main
@@ -380,14 +361,14 @@ Inside the header, create a level 2 heading with text Paragraph
 after the header add a level 2 heading with text Heading with a subtitle
 after the level 2 heading, add a paragraph with text This is my subtitle
 after the last paragraph, add another paragraph with text: Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.
-Repo:
 
-GitHub repository: alx-frontend
-Directory: 0x00-html_advanced
-File: 13-styleguide.html
+Repo:
+- GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
+- Directory: [0x00-html_advanced](https://github.com/AishaKhalfan/alx-frontend/tree/master/0x00-html_advanced)
+- File: 13-styleguide.html
   
 ## Task 14. Span
-mandatory
+
 Copy the contents of 12-index.html into 14-index.html
 
 In the very first <header>,
@@ -396,13 +377,12 @@ before the nav, create a span with the text Techium
 Does not need to pass W3C
 
 Repo:
-
-GitHub repository: alx-frontend
-Directory: 0x00-html_advanced
-File: 14-index.html
+- GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
+- Directory: [0x00-html_advanced](https://github.com/AishaKhalfan/alx-frontend/tree/master/0x00-html_advanced)
+- File: 14-index.html
   
 ## Task 15. Div
-mandatory
+
 Copy the contents of 14-index.html into 15-index.html
 
 Wrap the contents of the header element with a div
@@ -411,13 +391,11 @@ Finally, wrap the contents of the <footer> tag with a div
 W3C does not need to pass
 
 Repo:
-
-GitHub repository: alx-frontend
-Directory: 0x00-html_advanced
-File: 15-index.html
+- GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
+- Directory: [0x00-html_advanced](https://github.com/AishaKhalfan/alx-frontend/tree/master/0x00-html_advanced)
+- File: 15-index.html
   
 ## Task 16. Structure your sections
-mandatory
 Copy the contents of 15-index.html into 16-index.html
 
 in the div in the Services section
@@ -441,13 +419,12 @@ create a div sibling to the header that wraps the rest of the content
 W3C does not need to pass
 
 Repo:
-
-GitHub repository: alx-frontend
-Directory: 0x00-html_advanced
-File: 16-index.html
+- GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
+- Directory: [0x00-html_advanced](https://github.com/AishaKhalfan/alx-frontend/tree/master/0x00-html_advanced)
+- File: 16-index.html
   
 ## Task 17. Comments
-mandatory
+
 Copy the content of 16-index.html into 17-index.html
 
 before the header add a line break and a comment saying Header to help with scanning your code
@@ -463,13 +440,11 @@ before the Contact section add a line break and a comment saying Contact section
 Does not need to pass W3C
 
 Repo:
-
-GitHub repository: alx-frontend
-Directory: 0x00-html_advanced
-File: 17-index.html
+- GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
+- Directory: [0x00-html_advanced](https://github.com/AishaKhalfan/alx-frontend/tree/master/0x00-html_advanced)
+- File: 17-index.html
   
 ## Task 18. link your logo
-mandatory
 Copy the content of 17-index.html into 18-index.html
 
 in the header, wrap the span with a link that redirects to the page at the root of your folder (/)
@@ -477,13 +452,12 @@ wrap the link with a div
 W3C does not need to pass
 
 Repo:
-
-GitHub repository: alx-frontend
-Directory: 0x00-html_advanced
-File: 18-index.html
+- GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
+- Directory: [0x00-html_advanced](https://github.com/AishaKhalfan/alx-frontend/tree/master/0x00-html_advanced)
+- File: 18-index.html
   
 ## Task 19. Create new pages
-mandatory
+
 Copy the content of 18-index.html into about.html, latest_news.html and contact.html
 
 change the title of about.html to replace Homepage with About
@@ -492,13 +466,12 @@ change the title of contact.html to replace Homepage with Contact
 Does not need to pass W3C
 
 Repo:
-
-GitHub repository: alx-frontend
-Directory: 0x00-html_advanced
-File: about.html, latest_news.html, contact.html
+- GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
+- Directory: [0x00-html_advanced](https://github.com/AishaKhalfan/alx-frontend/tree/master/0x00-html_advanced)
+- File: about.html, latest_news.html, contact.html
   
 ## Task 20. Add links
-mandatory
+
 Copy the content of 18-index.html into 20-index.html
 
 in your nav tags
@@ -514,13 +487,12 @@ For now, the anchor links will not work. We will make them work in the CSS proje
 Does not need to pass W3C
 
 Repo:
-
-GitHub repository: alx-frontend
-Directory: 0x00-html_advanced
-File: 20-index.html
+- GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
+- Directory: [0x00-html_advanced](https://github.com/AishaKhalfan/alx-frontend/tree/master/0x00-html_advanced)
+- File: 20-index.html
   
 ## Task 21. Add social media links
-mandatory
+
 Copy the content of 20-index.html into 21-index.html
 
 in the div in the footer
@@ -531,13 +503,12 @@ create a link to https://www.instagram.com/holbertonschool/ with the text Instag
 W3C won’t pass - you can ignore it
 
 Repo:
-
-GitHub repository: alx-frontend
-Directory: 0x00-html_advanced
-File: 21-index.html
+- GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
+- Directory: [0x00-html_advanced](https://github.com/AishaKhalfan/alx-frontend/tree/master/0x00-html_advanced)
+- File: 21-index.html
   
 ## Task 22. "Button" links
-mandatory
+
 Copy the content of 21-index.html into 22-index.html
 
 in the Hero section, after the heading
@@ -549,13 +520,12 @@ create a link to contact.html with text Get in touch
 Does not need to pass W3C
 
 Repo:
-
-GitHub repository: alx-frontend
-Directory: 0x00-html_advanced
-File: 22-index.html
+- GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
+- Directory: [0x00-html_advanced](https://github.com/AishaKhalfan/alx-frontend/tree/master/0x00-html_advanced)
+- File: 22-index.html
   
 ## Task 23. Services, Works, Latest news links
-mandatory
+
 Copy the content of 22-index.html into 23-index.html
 
 in the Services section
@@ -567,13 +537,12 @@ in each level 3 heading, create a link to # around the text already in the headi
 Does not need to pass W3C
 
 Repo:
-
-GitHub repository: alx-frontend
-Directory: 0x00-html_advanced
-File: 23-index.html
+- GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
+- Directory: [0x00-html_advanced](https://github.com/AishaKhalfan/alx-frontend/tree/master/0x00-html_advanced)
+- File: 23-index.html
   
 ## Task 24. List the links
-mandatory
+
 Copy the content of 23-index.html into 24-index.html
 
 in the nav
@@ -583,13 +552,12 @@ create an unordered list and put each anchor tag (Facebook, Twitter, …) as an 
 W3C does not need to pass
 
 Repo:
-
-GitHub repository: alx-frontend
-Directory: 0x00-html_advanced
-File: 24-index.html
+- GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
+- Directory: [0x00-html_advanced](https://github.com/AishaKhalfan/alx-frontend/tree/master/0x00-html_advanced)
+- File: 24-index.html
   
 ## Task 25. Secondary navigation menu
-mandatory
+
 Copy the content of 24-index.html into 25-index.html
 
 inside the footer, after the div
@@ -599,13 +567,11 @@ link to # with text Terms of Use
 link to # with text Privacy Policy
 link to # with text Cookie Policy
 Repo:
+- GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
+- Directory: [0x00-html_advanced](https://github.com/AishaKhalfan/alx-frontend/tree/master/0x00-html_advanced)
+- File: 25-index.html
 
-GitHub repository: alx-frontend
-Directory: 0x00-html_advanced
-File: 25-index.html
-  
 ## Task 26. Examples of lists for the styleguide
-mandatory
 Copy the content of 13-styleguide.html into 26-styleguide.html
 
 Example of unordered list:
@@ -633,14 +599,13 @@ add a definition list with these items:
 Term: Definition List title, Definition: Definition text.
 Term: Startup, Definition: A startup company or startup is a company or temporary organization designed to search for a repeatable and scalable business model.
 Term: Water, Definition: A colorless, transparent, odorless liquid that forms the seas, lakes, rivers, and rain and is the basis of the fluids of living organisms.
-Repo:
 
-GitHub repository: alx-frontend
-Directory: 0x00-html_advanced
-File: 26-styleguide.html
+Repo:
+- GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
+- Directory: [0x00-html_advanced](https://github.com/AishaKhalfan/alx-frontend/tree/master/0x00-html_advanced)
+- File: 26-styleguide.html
   
 ## Task 27. Separate content
-mandatory
 Copy the content of 25-index.html into 27-index.html
 
 in the footer between the two divs:
@@ -649,13 +614,11 @@ after the horizontal rule add a paragraph with text © 2020 Techium, made with �
 W3C does not need to pass.
 
 Repo:
-
-GitHub repository: alx-frontend
-Directory: 0x00-html_advanced
-File: 27-index.html
+- GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
+- Directory: [0x00-html_advanced](https://github.com/AishaKhalfan/alx-frontend/tree/master/0x00-html_advanced)
+- File: 27-index.html
   
 ## Task 28. Horizontal rule example
-mandatory
 Copy the content of 26-styleguide.html into 28-styleguide.html
 
 in main after Lists section
@@ -663,14 +626,13 @@ add a new line and a comment with the text Horizontal rule
 create a new section
 create a header and inside it add a level 2 heading with the text Horizontal rule
 after the header create a div and put a horizontal rule in it
-Repo:
 
-GitHub repository: alx-frontend
-Directory: 0x00-html_advanced
-File: 28-styleguide.html
+Repo:
+- GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
+- Directory: [0x00-html_advanced](https://github.com/AishaKhalfan/alx-frontend/tree/master/0x00-html_advanced)
+- File: 28-styleguide.html
   
 ## Task 29. Client quotes
-mandatory
 Copy the content of 27-index.html into 29-index.html
 
 in the Testimonials section
@@ -683,13 +645,12 @@ replace the text with a blockquote with text I love your system. Definitely wort
 W3C does not need to pass
 
 Repo:
-
-GitHub repository: alx-frontend
-Directory: 0x00-html_advanced
-File: 29-index.html
+- GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
+- Directory: [0x00-html_advanced](https://github.com/AishaKhalfan/alx-frontend/tree/master/0x00-html_advanced)
+- File: 29-index.html
   
 ## Task 30. Examples of quotes
-mandatory
+
 Copy the content of 28-styleguide.html into 30-styleguide.html
 
 Example of inline quote:
@@ -707,13 +668,11 @@ after the inline quote div, create another div
 in the new div add a level 3 heading with the text Blockquote
 add a multiline quote with the text I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. and cite Kanye West, Musician
 Repo:
-
-GitHub repository: alx-frontend
-Directory: 0x00-html_advanced
-File: 30-styleguide.html
+- GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
+- Directory: [0x00-html_advanced](https://github.com/AishaKhalfan/alx-frontend/tree/master/0x00-html_advanced)
+- File: 30-styleguide.html
   
 ## Task 31. Address and latest news authors
-mandatory
 Copy the content of 29-index.html into 31-index.html
 
 in the footer
@@ -725,13 +684,11 @@ in the third article, after the last paragraph, add the author name in small pri
 W3C does not need to pass
 
 Repo:
-
-GitHub repository: alx-frontend
-Directory: 0x00-html_advanced
-File: 31-index.html
+- GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
+- Directory: [0x00-html_advanced](https://github.com/AishaKhalfan/alx-frontend/tree/master/0x00-html_advanced)
+- File: 31-index.html
   
 ## Task 32. Typography section - using the correct tags
-mandatory
 Copy the content of 30-styleguide.html into 32-styleguide.html
 
 inside main after the Blockquotes section
@@ -750,13 +707,11 @@ create another div, in the new div add this paragraph of text with the correct H
 W3C does not need to pass
 
 Repo:
-
-GitHub repository: alx-frontend
-Directory: 0x00-html_advanced
-File: 32-styleguide.html
+- GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
+- Directory: [0x00-html_advanced](https://github.com/AishaKhalfan/alx-frontend/tree/master/0x00-html_advanced)
+- File: 32-styleguide.html
   
 ## Task 33. Table
-mandatory
 Copy the content of 32-styleguide.html into 33-styleguide.html
 
 inside main after Typography section
@@ -771,13 +726,12 @@ The <th> tags containing Title, Director, Release Date should have a scope attri
 Due to previous task, does not have to pass W3C
 
 Repo:
-
-GitHub repository: alx-frontend
-Directory: 0x00-html_advanced
-File: 33-styleguide.html
+- GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
+- Directory: [0x00-html_advanced](https://github.com/AishaKhalfan/alx-frontend/tree/master/0x00-html_advanced)
+- File: 33-styleguide.html
   
 ## Task 34. Details
-mandatory
+
 Copy the content of 33-styleguide.html into 34-styleguide.html
 
 in main tag after Table section
@@ -795,21 +749,18 @@ add this text after the summary: Pellentesque habitant morbi tristique senectus 
 Due to earlier task, does not have to pass W3C
 
 Repo:
-
-GitHub repository: alx-frontend
-Directory: 0x00-html_advanced
-File: 34-styleguide.html
+- GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
+- Directory: [0x00-html_advanced](https://github.com/AishaKhalfan/alx-frontend/tree/master/0x00-html_advanced)
+- File: 34-styleguide.html
   
 ## Task 35. Replace text logo with image logo
-mandatory
-
 
 Copy the content of 31-index.html into 35-index.html
 
-in header
-find the span with the name of the website
-replace it with the image above
-make sure the image is in the same directory as all of your other files and that the file name is logo-black.png
+- in header
+	- find the span with the name of the website
+	- replace it with the image above
+	- make sure the image is in the same directory as all of your other files and that the file name is logo-black.png
 alt: Techium logo
 don’t forget to specify width of 160 and height of 40
 in footer, after the opening tag and before the address
@@ -819,13 +770,12 @@ don’t forget to specify the width and height (same as in header)
 W3C does not need to pass
 
 Repo:
-
-GitHub repository: alx-frontend
-Directory: 0x00-html_advanced
-File: 35-index.html
+- GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
+- Directory: [0x00-html_advanced](https://github.com/AishaKhalfan/alx-frontend/tree/master/0x00-html_advanced)
+- File: 35-index.html
   
 ## Task 36. Add images to your sections
-mandatory
+
 Copy the content of 35-index.html into 36-index.html
 
 You can use image generators to get images for this task. For avatar images you can download them on UI Faces. Just make sure you rename your images to match the task requirements.
@@ -885,13 +835,12 @@ height: 100px
 Does not need to pass W3C
 
 Repo:
-
-GitHub repository: alx-frontend
-Directory: 0x00-html_advanced
-File: 36-index.html
+- GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
+- Directory: [0x00-html_advanced](https://github.com/AishaKhalfan/alx-frontend/tree/master/0x00-html_advanced)
+- File: 36-index.html
   
 ## Task 37. Social icons
-mandatory
+
 Copy the content of 36-index.html into index.html (the final file!)
 
 inside the footer
@@ -920,13 +869,12 @@ Instagram icon
 W3C does not need to pass
 
 Repo:
-
-GitHub repository: alx-frontend
-Directory: 0x00-html_advanced
-File: index.html
+- GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
+- Directory: [0x00-html_advanced](https://github.com/AishaKhalfan/alx-frontend/tree/master/0x00-html_advanced)
+- File: index.html
   
 ## Task 38. Add a video player in the styleguide
-mandatory
+
 Copy the content of 34-styleguide.html into 38-styleguide.html
 
 in main after the Details section
@@ -941,13 +889,12 @@ provide an alternative text: Sorry, your browser doesn't support HTML5 video
 Due to an earlier task, does not need to pass W3C
 
 Repo:
-
-GitHub repository: alx-frontend
-Directory: 0x00-html_advanced
-File: 38-styleguide.html
+- GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
+- Directory: [0x00-html_advanced](https://github.com/AishaKhalfan/alx-frontend/tree/master/0x00-html_advanced)
+- File: 38-styleguide.html
   
 ## Task 39. Add an audio player in the styleguide
-mandatory
+
 Copy the content of 38-styleguide.html into 39-styleguide.html
 
 in main after Video section
@@ -960,13 +907,12 @@ provide an alternative text: Sorry, your browser doesn't support audio element
 Due to an earlier task, does not need to pass W3C
 
 Repo:
-
-GitHub repository: alx-frontend
-Directory: 0x00-html_advanced
-File: 39-styleguide.html
+- GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
+- Directory: [0x00-html_advanced](https://github.com/AishaKhalfan/alx-frontend/tree/master/0x00-html_advanced)
+- File: 39-styleguide.html
   
 ## Task 40. Add a iframe example in the styleguide
-mandatory
+
 Copy the content of 39-styleguide.html into styleguide.html
 
 in main after the Audio section
@@ -985,10 +931,9 @@ W3C does not need to pass
 And you are done!
 
 Repo:
-
-GitHub repository: alx-frontend
-Directory: 0x00-html_advanced
-File: styleguide.html
+- GitHub repository: [alx-frontend](https://github.com/AishaKhalfan/alx-frontend)
+- Directory: [0x00-html_advanced](https://github.com/AishaKhalfan/alx-frontend/tree/master/0x00-html_advanced)
+- File: styleguide.html
   
 Copyright © 2024 ALX, All rights reserved.
 
