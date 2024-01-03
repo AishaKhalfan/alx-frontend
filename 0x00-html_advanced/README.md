@@ -47,10 +47,10 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - ``Techium`` will be the name of the company we will use across our webpages.
 
 ## Sitemap of the project
-![img](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x00-html_advanced/sitemap.png)
+![img](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x00-html_advanced/images/sitemap.png)
 
 ## Wireframe of Techium project
-![img](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x00-html_advanced/wireframe.png)
+![img](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x00-html_advanced/images/wireframe.png)
 
 ## Quiz questions
 Great! You've completed the quiz successfully! Keep going!
@@ -88,7 +88,7 @@ Repo:
 
 ## Task 2. The head - meta charset, viewport, title, description, favicons
 Copy the content of ``1-index.html`` into ``2-index.html``
-![img](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x00-html_advanced/t.jpg)
+![img](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x00-html_advanced/images/t.jpg)
 **Meta charset:**
 
 - add a meta tag inside the head:
@@ -721,7 +721,7 @@ Copy the content of 32-styleguide.html into 33-styleguide.html
 	- create a new section
 		- in the section create a header, in the header add a level 2 heading with the text Table
 		- after the header, create a table, reproduce in HTML the visual below
-![table](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x00-html_advanced/table.jpg)
+![table](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x00-html_advanced/images/table.jpg)
 
 The <th> tags containing Title, Director, Release Date should have a scope attribute set to col The <th> tags containing the names of the movies should have a scope attribute set to row
 
