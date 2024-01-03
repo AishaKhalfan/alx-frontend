@@ -402,13 +402,14 @@ Lists are used for listing ingredients in a recipe, a series of social icons, et
 | Block      | No       |
 
 **Resources**
-ul: The Unordered List element - HTML: Hypertext Markup Language | MDN
-li - HTML: Hypertext Markup Language | MDN
-ol: The Ordered List element - HTML: Hypertext Markup Language | MDN
-dl: The Description List element - HTML: Hypertext Markup Language | MDN
-Ordered list (ol)
-An ordered list is rendered as a numbered list.
+- [ul: The Unordered List element - HTML: Hypertext Markup Language | MDN]()
+- [li - HTML: Hypertext Markup Language | MDN]
+- [ol: The Ordered List element - HTML: Hypertext Markup Language | MDN]
+- [dl: The Description List element - HTML: Hypertext Markup Language | MDN]
 
+### Ordered list (ol)
+An ordered list is rendered as a numbered list.
+```HTML
 <!-- an ordered list number -->
 <ol>
   <li>List item 1</li>
@@ -421,9 +422,10 @@ An ordered list is rendered as a numbered list.
   <li>List item 2</li>
   <li>List item 3</li>
 </ol>
-Unordered list (ul)
+```
+### Unordered list (ul)
 An unordered list is rendered as an unordered list of items.
-
+```HTML
 <!-- flat list -->
 <ul>
   <li>First bullet point</li>
@@ -443,39 +445,46 @@ An unordered list is rendered as an unordered list of items.
   </li> <!-- Closing li tag -->
   <li>Third bullet point</li>
 </ul>
-Definition list
+```
+**Definition list**
 A definition list is used to list terms and corresponding definitions.
-
+```HTML
 <dl>
   <dt>Term</dt>
   <dd>Definition of the term</dd>
   <dt>Another term</dt>
   <dd>Another definition of the term</dd>
 </dl>
-Horizontal rules
+```
+**Horizontal rules**
 An hr is a semantic break that separates different blocks of text.
 
-Self-closing
-Yes
+**Self-closing**
+- Yes
+```HTML
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 <hr>
 <h2>Section</h2>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-Resources
-hr: The Thematic Break (Horizontal Rule) element - HTML: Hypertext Markup Language | MDN
-Line Breaks
+```
+**Resources**
+- [hr: The Thematic Break (Horizontal Rule) element - HTML: Hypertext Markup Language | MDN]()
+
+**Line Breaks**
 Line breaks are used to break the text to multiple lines.
 
-Self-closing
-yes
+**Self-closing**
+- yes
+```HTML
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
 Donec viverra<br>
 nec<br>
 nulla vitae mollis</p>
+```
 Never use line breaks for presentation purpose, to create space between elements in your design. Spacing and layout should only be handled by CSS.
 
-Resources
-br: The Line Break element - HTML: Hypertext Markup Language | MDN
+**Resources**
+- [br: The Line Break element - HTML: Hypertext Markup Language | MDN]()
 Inline quotation
 Inline quotes is used for inline text that doesn’t require paragraph breaks.
 
