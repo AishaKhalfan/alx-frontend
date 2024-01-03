@@ -6,7 +6,7 @@
 - For this project, we expect you to look at this concept:
 
 - [HTML - elements of a web page](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x00-html_advanced/HTML.md)
-![img](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x00-html_advanced/yeah.jpg)
+![img](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x00-html_advanced/images/yeah.jpg)
 
 # Welcome!
 Welcome to the Web Stack specialization. The 3 first projects will give you all basics of the Web development: HTML, CSS and Developer tools.
