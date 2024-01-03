@@ -100,14 +100,18 @@ Warning! The title should always have less than 56 characters.
 - [The ideal width of the SEO title • Yoast](https://yoast.com/page-titles-seo/)
 
 ### Meta description
+```HTML
 <head>
     ...
     <!-- Meta Description -->
     <meta name="description" content="Description of the page less than 150 characters">
   </head>
-Resources
-The ideal length of a meta description • Yoast
-Favicons
+```
+**Resources**
+- [The ideal length of a meta description • Yoast](https://yoast.com/page-titles-seo/)
+
+### Favicons
+```HTML
 <head>
     ...
     <!-- Standard favicon -->
@@ -116,45 +120,53 @@ Favicons
     <link rel="icon" type="image/png" href="https://example.com/favicon.png">
     ...
   </head>
-Resources
-Favicon & App Icon Generator
-Favicon Generator for all platforms: iOS, Android, PC/Mac…
-Obsessive cheat sheet to favicon sizes/types.)
-Favicons, Touch Icons, Tile Icons, etc. Which Do You Need? | CSS-Tricks
-PNG favicons - caniuse
-Tag attributes
+```
+
+**Resources**
+- [Favicon & App Icon Generator](https://www.favicon-generator.org/)
+- [Favicon Generator for all platforms: iOS, Android, PC/Mac…](https://realfavicongenerator.net/)
+- [Obsessive cheat sheet to favicon sizes/types.)](https://github.com/audreyfeldroy/favicon-cheat-sheet)
+- [Favicons, Touch Icons, Tile Icons, etc. Which Do You Need? | CSS-Tricks](https://css-tricks.com/favicon-quiz/)
+- [PNG favicons - caniuse](https://caniuse.com/link-icon-png)
+
+### Tag attributes
 Attributes provide additional information or instruction for an HTML element. It is always included inside the opening tag.
 
-Data-* attribute
+### Data-* attribute
 It is possible to declare any attribute using the data- prefix
-
+```HTML
 <tag data-extra-attr="value">some content</tag>
-Resources
-HTML attribute reference - HTML: Hypertext Markup Language | MDN
-header tag
+```
+### Resources
+- [HTML attribute reference - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes)
+
+### ``header`` tag
 The <header> HTML tag element is used to identify the top of a webpage, article, section, or other segment of a page. The header is normally always the same across all pages of your website.
 
+![header](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x00-html_advanced/images/header.jpg)
 
-
-Usage
-logo of the website
-navigation
-search form
+### Usage
+- logo of the website
+- navigation
+- search form
+```html
 ...
 <body>
     <header>This is my header<header/>
 </body>
+```
 Warning! The main element should never be a descendant of an article, aside, header, footer, or nav element.
 
 Don’t confuse header with the head element of the page.
 
-Resources
-header - HTML: Hypertext Markup Language | MDN
-main tag
+**Resources**
+- [header - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header)
+
+### ``main`` tag
 The <main> HTML tag is a structural element located generally between the <header> and the <footer> and contains the content of your web page.
 
-
-
+![main](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x00-html_advanced/images/main.jpg)
+```HTML
 ...
 <body>
     <header>This is my header</header>
@@ -162,16 +174,17 @@ The <main> HTML tag is a structural element located generally between the <heade
         This is where I put my content
     </main>
 </body>
-footer tag
+```
+### ``footer`` tag
 The <footer> HTML tag is a structural element used to identify the footer of a page, article, or section.
+![main](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x00-html_advanced/images/footer.jpg)
 
-
-
-Usage
-copyright information
-authorship information
-navigation elements
-social icons or links
+### Usage
+- copyright information
+- authorship information
+- navigation elements
+- social icons or links
+```HTML
 ...
 <body>
     <header>This is my header<header/>
@@ -180,16 +193,19 @@ social icons or links
     </main>
     <footer>This is the footer of my page</footer>
 </body>
-Resources
-footer - HTML: Hypertext Markup Language | MDN
-aside tag
+```
+**Resources**
+- [footer - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer)
+
+### ``aside`` tag
 The <aside> HTML tag contains additional information related to the main content.
+![main](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x00-html_advanced/images/aside.jpg)
 
 
-
-Usage
-monthly archives
-list of categories
+### Usage
+- monthly archives
+- list of categories
+```html
 ...
 <body>
     ...
@@ -204,12 +220,14 @@ list of categories
     </main>
     ...
 </body>
-section tag
+```
+### ``section`` tag
 The <section> tag element allows the grouping of related elements. You can usually find a <header> and <footer> attached to a section.
 
+![main](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x00-html_advanced/images/section.jpg)
 
-
-Usage
+### Usage
+```html
 ...
 <body>
     ...
@@ -220,18 +238,21 @@ Usage
     </main>
     ...
 </body>
-Resources
-section: The Generic Section element - HTML: Hypertext Markup Language | MDN
-article tag
+```
+**Resources**
+- [section: The Generic Section element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section)
+
+### ``article`` tag
 An <article> HTML tag represent a self-contained piece of content which could theoretically be distributed to other websites and platforms as a stand-alone unit.
 
+![main](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x00-html_advanced/images/article.jpg)
 
-
-Usage
-blog posts
-news articles
-product cards
-forum posts
+### Usage
+- blog posts
+- news articles
+- product cards
+- forum posts
+```html
 ...
 <body>
     ...
@@ -243,13 +264,15 @@ forum posts
     </main>
     ...
 </body>
-Resources
-article: The Article Contents element - HTML: Hypertext Markup Language | MDN
-nav tag
+```
+**Resources**
+- [article: The Article Contents element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article)
+
+### ``nav`` tag
 The <nav> HTML tag is a structural element with navigation links.
+![main](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x00-html_advanced/images/nav.jpg)
 
-
-
+```html
 ...
 <body>
     <header> I'm inside the header
@@ -263,74 +286,94 @@ The <nav> HTML tag is a structural element with navigation links.
     <header/>
     ...
 </body>
-Resources
-nav: The Navigation Section element - HTML: Hypertext Markup Language | MDN
-Headings
-Headings are used to define a section heading.
+```
 
-Type	Self-closing
-Block	No
-Warning! Browsers apply different sizes for each heading in their default CSS rules. Keep in mind that HTML is about content and not the styling. Never use an h4 after an h2. For example, always keep a descendant order (h1 > h2 > h3…).
+**Resources**
+- [nav: The Navigation Section element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav)
+
+### Headings
+Headings are used to define a section heading.
+|Type     | Self-closing |
+| ----------- | ----------- |
+| Block      | No       |
+
+``Warning!`` Browsers apply different sizes for each heading in their default CSS rules. Keep in mind that HTML is about content and not the styling. Never use an h4 after an h2. For example, always keep a descendant order (h1 > h2 > h3…).
 
 Accessibility tip: Headings are used by voice browser to help navigate through the webpage.
-
+```html
 <h1>This is my title level 1</h1>
 <h2>This is my title level 2</h2>
 ...
+```
 Tip: Never put the logo or name of your website inside an <h1>. The text inside this tag has to reflect the content of your page. On a homepage, based on the design, you can eventually hide visually your <h1> but it still has to exist in your code.
 
-Resources
-h1–h6: The HTML Section Heading elements - HTML: Hypertext Markup Language | MDN
-p tag
+**Resources**
+- [h1–h6: The HTML Section Heading elements - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/heading_elements)
+
+## ``p`` tag
 A <p> HTML tag defines a paragraph of text.
-
-Type	Self-closing
-Block	No
+|Type     | Self-closing |
+| ----------- | ----------- |
+| Block      | No       |
 Warning! If you need a container to wrap multiple elements, use div instead of p. Only use the paragraph tag if your content could be considered a paragraph of text.
-
+```html
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-Resources
-p: The Paragraph element - HTML: Hypertext Markup Language | MDN
+```
+**Resources**
+- [p: The Paragraph element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p)
+
 div and span don’t possess any semantic meaning. They are mostly used to define a block (div) of content, or an inline (span) content.
 
-span
+### span
 A span is a generic inline of content used usually for text that are not inside a paragraph. span should be used as little as possible.
 
-<span>This is my first span</span>
-Type	Self-closing
-Inline	No
-div
+``<span>This is my first span</span>``
+|Type     | Self-closing |
+| ----------- | ----------- |
+| Inline      | No       |
+
+### div
 A div (stands for “document division”) is a generic block of content used to structure elements in your layout.
 
-<div>This is my first div</div>
-Type	Self-closing
-Block	No
-Comments
+``<div>This is my first div</div>``
+|Type     | Self-closing |
+| ----------- | ----------- |
+| Block      | No       |
+
+### Comments
 Comments allow you to add some information visible for the developer but not for the normal user. Comments are not visible on your page.
 
+```html
 <!-- This is a comment about how much I love eggs! -->
-Resources
-About conditional comments (Internet Explorer) | Microsoft Docs
-a tag
-Links are inline elements which allow you to navigate from one page / document to another.
+```
+**Resources**
+- [About conditional comments (Internet Explorer) | Microsoft Docs](https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/ms537512(v=vs.85)?redirectedfrom=MSDN)
 
-Type	Self-closing
-Inline	No
+### ``a`` tag
+Links are inline elements which allow you to navigate from one page / document to another.
+|Type     | Self-closing |
+| ----------- | ----------- |
+| Inline      | No       |
+
 There are 3 types of targets:
 
-anchor targets, to navigate within the same page
-relative URLs, usually to navigate within the same website
-absolute URLs, usually to navigate to another website
+- anchor targets, to navigate within the same page
+- relative URLs, usually to navigate within the same website
+- absolute URLs, usually to navigate to another website
+```html
 <a href="#services">Link</a> <-- anchor target -->
 <a href="/blog">Link</a> <-- relative url -->
 <a href="https://www.example.com">Link</a> <-- absolute url -->
+```
 If you use target=_blank don’t forget to add rel=noopner for security purposes.
 
-Resources
-a: The Anchor element - HTML: Hypertext Markup Language | MDN
-About rel=noopener
-Mailto Links | CSS-Tricks
-Future changes in the link attribution (rel)
+**Resources**
+- [a: The Anchor element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)
+- [About rel=noopener](https://mathiasbynens.github.io/rel-noopener/)
+- [Mailto Links | CSS-Tricks](https://css-tricks.com/snippets/html/mailto-links/)
+
+### Future changes in the link attribution (rel)
+```html
 <div>
   <div>
     <a href="#" rel="noopener" target="_blank">Link open in a new tab</a>
@@ -345,17 +388,20 @@ Future changes in the link attribution (rel)
     <a href="#" rel="nofollow">Catch-all for all non-trusted links</a>
   </div>
 </div>
+```
+![main](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x00-html_advanced/images/rel.jpg)
 
+**Resources**
+- [Official Google Webmaster Central Blog: Evolving “nofollow” – new ways to identify the nature of links](https://webmasters.googleblog.com/2019/09/evolving-nofollow-new-ways-to-identify.html)
+- [How Google’s Nofollow, Sponsored, & UGC Links Impact SEO - Moz](https://moz.com/blog/nofollow-sponsored-ugc)
 
-Resources
-Official Google Webmaster Central Blog: Evolving “nofollow” – new ways to identify the nature of links
-How Google’s Nofollow, Sponsored, & UGC Links Impact SEO - Moz
-Lists
+### Lists
 Lists are used for listing ingredients in a recipe, a series of social icons, etc..
+|Type     | Self-closing |
+| ----------- | ----------- |
+| Block      | No       |
 
-Type	Self-closing
-Block	No
-Resources
+**Resources**
 ul: The Unordered List element - HTML: Hypertext Markup Language | MDN
 li - HTML: Hypertext Markup Language | MDN
 ol: The Ordered List element - HTML: Hypertext Markup Language | MDN
