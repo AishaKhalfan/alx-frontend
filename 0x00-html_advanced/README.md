@@ -756,7 +756,8 @@ Repo:
 - File: 34-styleguide.html
   
 ## Task 35. Replace text logo with image logo
-![techium](![img](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x00-html_advanced/techium.png))
+![techium](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x00-html_advanced/techium.png)
+
 Copy the content of 31-index.html into 35-index.html
 
 - in header
