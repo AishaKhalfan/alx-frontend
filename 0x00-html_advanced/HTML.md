@@ -468,13 +468,12 @@ An hr is a semantic break that separates different blocks of text.
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 ```
 **Resources**
-- [hr: The Thematic Break (Horizontal Rule) element - HTML: Hypertext Markup Language | MDN]()
+- [hr: The Thematic Break (Horizontal Rule) element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr)
 
 **Line Breaks**
 Line breaks are used to break the text to multiple lines.
 
-**Self-closing**
-- yes
+**Self-closing** - yes
 ```HTML
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
 Donec viverra<br>
@@ -484,21 +483,25 @@ nulla vitae mollis</p>
 Never use line breaks for presentation purpose, to create space between elements in your design. Spacing and layout should only be handled by CSS.
 
 **Resources**
-- [br: The Line Break element - HTML: Hypertext Markup Language | MDN]()
-Inline quotation
+- [br: The Line Break element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br)
+
+### Inline quotation
 Inline quotes is used for inline text that doesn’t require paragraph breaks.
 
+```html
 <p>
   According to Mozilla's website,
   <q cite="https://www.mozilla.org/en-US/about/history/details/">Firefox 1.0 was released in 2004 and became a big success.</q>
 </p>
-Resources
-q: The Inline Quotation element - HTML: Hypertext Markup Language | MDN
-Blockquote
+```
+**Resources**
+- [q: The Inline Quotation element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q)
+### Blockquote
 A multiline quote is called a blockquote.
 
-Type	Self-closing
-Block	No
+``Type`` - ``Self-closing``
+``Block`` - ``No``
+```html
 <!-- DO -->
 <blockquote cite="https://tools.ietf.org/html/rfc1149">
   <p>Avian carriers can provide high delay, low
@@ -521,31 +524,33 @@ Block	No
     <cite>Steve Jobs – Apple Worldwide Developers’ Conference, 1997</cite>
   </p>
 </blockquote>
-Resources
-blockquote: The Block Quotation element - HTML: Hypertext Markup Language | MDN
-Text/Typography
+```
+**Resources**
+- [blockquote: The Block Quotation element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote)
+
+**Text/Typography**
 A long list of HTML tags are used to give semantic meaning to specific text. Each tag is essential to help users and browsers understand the specificity of a certain portion of text. It’s crucial to understand which can be used in which situation.
 
-<em> to indicate stress emphasis.
-<i> to indicate text set off from the normal prose (foreign word, technical term…).
-<strong> to indicate stronger importance.
-<b> to draw attention to specific content (keywords in a summary, product names in a review…).
-<small> to represent side-comments or small text (copyright, legal text…).
-<del> to represent a text that has been deleted.
-<ins> to represent a text that has been inserted.
-<s> to render text with a strikethough or a line through it.
-<wbr> to specify where the text could have a line-break.
-<mark> to indicate relevance, representing text marked or highlighted for reference.
-<cite> to mark the name of a work, such as a book, play, or song.
-<dfn> to mark the defining instance of a term.
-<abbr> to represents an abbreviation or acronyme.
-<code> to indicate at short fragment of computer code.
-<time> to indicate a specific period in time.
-<address> to indicate contact information (person, people or organization).
+- ``<em>`` to indicate stress emphasis.
+- ``<i>`` to indicate text set off from the normal prose (foreign word, technical term…).
+- `<strong>`` to indicate stronger importance.
+- ``<b>`` to draw attention to specific content (keywords in a summary, product names in a review…).
+- ``<small>`` to represent side-comments or small text (copyright, legal text…).
+- ``<del>`` to represent a text that has been deleted.
+- ``<ins>`` to represent a text that has been inserted.
+- ``<s>`` to render text with a strikethough or a line through it.
+- ``<wbr>`` to specify where the text could have a line-break.
+- ``<mark>`` to indicate relevance, representing text marked or highlighted for reference.
+- ``<cite>`` to mark the name of a work, such as a book, play, or song.
+- ``<dfn>`` to mark the defining instance of a term.
+- ``<abbr>`` to represents an abbreviation or acronyme.
+- ``<code>`` to indicate at short fragment of computer code.
+- ``<time> to indicate a specific period in time.
+- ``<address>`` to indicate contact information (person, people or organization).
 Warning!
 
 Some tags like <strong> and <b> may look the same visually in your browser. Please remember that HTML is about content, semantics, and not the visual aspect.
-
+```html
 <ul>
   <li>
     I <em>really</em> like driving in San Francisco.
@@ -611,38 +616,41 @@ by</small> James Clear <small>  (Author)</small></p>
     </address>
   </li>
 </ul>
-Resources
-em: The Emphasis element - HTML: Hypertext Markup Language | MDN
-i - HTML: Hypertext Markup Language | MDN
-strong: The Strong Importance element - HTML: Hypertext Markup Language | MDN
-b: The Bring Attention To element - HTML: Hypertext Markup Language | MDN
-small: the side comment element - HTML: Hypertext Markup Language | MDN
-del: The Deleted Text element - HTML: Hypertext Markup Language | MDN
-ins - HTML: Hypertext Markup Language | MDN
-s - HTML: Hypertext Markup Language | MDN
-wbr - HTML: Hypertext Markup Language | MDN
-mark: The Mark Text element - HTML: Hypertext Markup Language | MDN
-cite: The Citation element - HTML: Hypertext Markup Language | MDN
-dfn: The Definition element - HTML: Hypertext Markup Language | MDN
-abbr: The Abbreviation element - HTML: Hypertext Markup Language | MDN
-code: The Inline Code element - HTML: Hypertext Markup Language | MDN
-time - HTML: Hypertext Markup Language | MDN
-address: The Contact Address element - HTML: Hypertext Markup Language | MDN
-Tables
+```
+**Resources**
+- [em: The Emphasis element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em)
+- [i - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i)
+- [strong: The Strong Importance element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong)
+- [b: The Bring Attention To element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b)
+- [small: the side comment element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/small)
+- [del: The Deleted Text element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/del)
+- [ins - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ins)
+- [s - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/s)
+- [wbr - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/wbr)
+- [mark: The Mark Text element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark)
+- [cite: The Citation element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite)
+- [dfn: The Definition element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dfn)
+- [abbr: The Abbreviation element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/abbr)
+- [code: The Inline Code element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code)
+- [time - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time)
+- [address: The Contact Address element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address)
+
+## Tables
 A table element is used to wrap tabular content. It uses rows and columns to organize the data.
 
 Accessibility tip: Always use <caption> to help people understand the content of your table.
 
-Anatomy of a table
-caption: the title of a table.
-thead: groups multiple rows that represents the head of the columns
-tbody: groups multiple rows that represents the body of the table
-tfoot: groups multiple rows that represents the footer of the table
-th: a cell as header of a group of table cells
-tr: a row of cells
-td: a cell of a table
-col attribute: defines a column within a table.
-colgroup attribute: defines a group of columns within a table.
+### Anatomy of a table
+- caption: the title of a table.
+- thead: groups multiple rows that represents the head of the columns
+- tbody: groups multiple rows that represents the body of the table
+- tfoot: groups multiple rows that represents the footer of the table
+- th: a cell as header of a group of table cells
+- tr: a row of cells
+- td: a cell of a table
+- col attribute: defines a column within a table.
+- colgroup attribute: defines a group of columns within a table.
+```html
 <!-- Table with thead, tfoot, and tbody -->
 <table>
   <caption>The table</caption>
@@ -690,85 +698,97 @@ colgroup attribute: defines a group of columns within a table.
     </tr>
   </tfoot>
 </table>
-Resources
-table: The Table element - HTML: Hypertext Markup Language | MDN
-thead: The Table Head element - HTML: Hypertext Markup Language | MDN
-tbody: The Table Body element - HTML: Hypertext Markup Language | MDN
-tfoot: The Table Foot element - HTML: Hypertext Markup Language | MDN
-th - HTML: Hypertext Markup Language | MDN
-tr: The Table Row element - HTML: Hypertext Markup Language | MDN
-td: The Table Data Cell element - HTML: Hypertext Markup Language | MDN
-details tag
-The <details> HTML element gives a native way to create something similar to an accordion.
+```
+**Resources**
+- [table: The Table element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table)
+- [thead: The Table Head element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead)
+- [tbody: The Table Body element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody)
+- [tfoot: The Table Foot element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot)
+- [th - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th)
+- [tr: The Table Row element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr)
+- [td: The Table Data Cell element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td)
 
+### details tag
+- The <details> HTML element gives a native way to create something similar to an accordion.
+```html
 <details>
   <summary>Details</summary>
   Something small enough to escape casual notice.
 </details>
-Resources
-details: The Details disclosure element - HTML: Hypertext Markup Language | MDN
-summary: The Disclosure Summary element - HTML: Hypertext Markup Language | MDN
-Quick Reminder that Details/Summary is the Easiest Way Ever to Make an Accordion | CSS-Tricks
-Image
+```
+**Resources**
+- [details: The Details disclosure element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details)
+- [summary: The Disclosure Summary element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary)
+- [Quick Reminder that Details/Summary is the Easiest Way Ever to Make an Accordion | CSS-Tricks](https://css-tricks.com/quick-reminder-that-details-summary-is-the-easiest-way-ever-to-make-an-accordion/)
+
+### Image
 The image element (<img>) allows us to use images on a website.
 
-Type	Self-closing
-Inline	Yes
+``Type`` - ``Self-closing``
+``Inline`` - ``Yes``
 Accessibility tip: You should always have an alt on your image. With text or without, depending if your image is decorative or not. The alt should describe what is inside your image. Never use the title of your blog post or some similar text.
 
 Tip: Always specify the width and height of the image. It will avoid layout jank during image loading. Chrome and other browsers are working (Firefox already has that functionality) on improving the experience.
 
-
+```html
 <!-- using a url relative to the HTML page -->
 <img src="img/dog.jpg" alt="My dog Hugo sitting in the grass." width="300" height="200">
 <!-- using an absolute url from another website -->
 <img src="http://dogpictures.com/dog.jpg" alt="A placeholder image of a dog." width="300" height="200">
-Resources
-img: The Image Embed element - HTML: Hypertext Markup Language | MDN
-Essential Image
-Placeholder generators
-https://placebear.com/
-https://picsum.photos/
-http://placehold.it/
-https://www.placecage.com/
-Image formats
+```
+**Resources**
+- [img: The Image Embed element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img)
+- [Essential Image](https://images.guide/)
+
+### Placeholder generators
+- https://placebear.com/
+- https://picsum.photos/
+- http://placehold.it/
+- https://www.placecage.com/
+
+### Image formats
 JPEG, PNG, GIF, SVG and WebP are the most common format of image used on the Web. Each of them has his own particularity and usage. It’s essential to understand these and always ensure that they are optimized to be shown on a webpage.
 
-Support image format
-JPEG, GIF, PNG OR SVG - Which should You use?
-SVG vs PNG vs JPG: Image Format Pros & Cons | Design Shack
-SVGOMG - SVGO’s Missing GUI
+- [Support image format](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#Supported_image_formats)
+- [PEG, GIF, PNG OR SVG - Which should You use?](https://dev.to/sarah_chima/jpeg-gif-png-or-svg---which-should-i-use-1o8o)
+- [SVG vs PNG vs JPG: Image Format Pros & Cons | Design Shack](https://designshack.net/articles/graphics/svg-vs-png-vs-jpg/)
+- [SVGOMG - SVGO’s Missing GUI](https://jakearchibald.github.io/svgomg/)
+ 
 Warning! It’s not unusual to find websites that load images with more than 1 MB. It’s obviously not recommended. Nowadays, people browse the web more using a wireless connection and then could be limited in their data package. It’s important to always keep that in mind.
 
-Picture
+### Picture
 The <picture> HTML tag is used as a wrapper to combine different sources which provide different versions of an image. (It can also be use to offer different versions for different devices/display.)
-
+```html
 <picture>
   <source srcset="/img/logo.webp" type="image/webp">
   <source srcset="/img/logo.jp2" type="image/jp2">
   <img src="/img/logo.jpg">
 </picture>
-Resources
-picture: The Picture element - HTML: Hypertext Markup Language | MDN
-Bye raster, hello vector: 3 ways to use SVG easier · Devbridge
-video tag
+```
+**Resources**
+- [picture: The Picture element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture)
+- [Bye raster, hello vector: 3 ways to use SVG easier · Devbridge](https://www.cognizant.com/us/en/services/software-product-engineering)
+
+### video tag
 The <video> HTML Tag gives the capability to add a native video player in your HTML.
 
 Accessibility tip: It’s essential to provide an alternative text in case the <video> tag is not supported or the video doesn’t exist anymore.
 
 Avoid using the attribute autoplay and let the user decide if they want to play the video. Of course, for videos used in the background, autoplay and loop will probably be essential.
-
+```html
 <video width="640" height="480" src="https://archive.org/download/Popeye_forPresident/Popeye_forPresident_512kb.mp4" controls>
   Sorry, your browser doesn't support HTML5 <code>video</code>, but you can
   download this video from the <a href="https://archive.org/details/Popeye_forPresident" target="_blank">Internet Archive</a>.
 </video>
-Resources
-video: The Video Embed element - HTML: Hypertext Markup Language | MDN
-Media formats for HTML audio and video
-Can I use… video
-audio tag
-The audio HTML Tag gives the capability to embed sound content in your HTML.
+```
+**Resources**
+- [video: The Video Embed element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video)
+- [Media formats for HTML audio and video](https://developer.mozilla.org/en-US/docs/Web/Media/Formats)
+- [Can I use… video](https://caniuse.com/?search=video)
 
+### audio tag
+The audio HTML Tag gives the capability to embed sound content in your HTML.
+```html
 <!-- single audio file -->
 <audio src="/music/audiofile.mp3" controls>
 <!-- multiple audio files -->
@@ -776,14 +796,17 @@ The audio HTML Tag gives the capability to embed sound content in your HTML.
   <source src="audiofile.mp3" type="audio/mpeg">
   <source src="audiofile.ogg" type="audio/ogg">
 </audio>
-Resources
-audio: The Embed Audio element
-Can I use… audio
-iframe tag
+```
+**Resources**
+- [audio: The Embed Audio element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio)
+- [Can I use… audio](https://caniuse.com/?search=audio)
+
+### iframe tag
 An iframe embed an external browsing content in your current HTML page.
 
-Type	Self-closing
-Block	No
+``Type`` - ``Self-closing``
+``Block`` - ``No``
+```html
 <iframe
   title="Inline Frame Example"
   width="300"
@@ -791,10 +814,11 @@ Block	No
   src="https://www.google.com/">
   Fallback text for non-supported browsers
 </iframe>
+```
 Accessibility tip: Always specify a title attribute on your iFrame.
 
 Tip: Use iFrames with parcimony as they can add extra weight to your webpage.
 
-Resources
-iframe: The Inline Frame element - HTML: Hypertext Markup Language | MDN
-3 Reasons You Should Never Use Iframes
+**Resources**
+- [iframe: The Inline Frame element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe)
+- [3 Reasons You Should Never Use Iframes](https://ostraining.com/blog/webdesign/against-using-iframes/)
