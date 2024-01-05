@@ -13,14 +13,14 @@ For this project, we expect you to look at these concepts:
 ## Resources
 Read or watch
 
-- [CSS Reference - A free visual guide to CSS]()
-- [Can I use,,, Support tables for HTML5, CSS3, etc]()
-- [CSS Reference]()
-- [CSS Properties | HTML Dog]()
-- [Box Sizing]()
-- [CSS Selectors weight]()
-- [CSS specificity calculator]()
-- [Play with CSS selector]()
+- [CSS Reference - A free visual guide to CSS](https://cssreference.io/)
+- [Can I use,,, Support tables for HTML5, CSS3, etc](https://caniuse.com/)
+- [CSS Reference](http://ref.openweb.io/CSS/)
+- [CSS Properties | HTML Dog](https://htmldog.com/references/css/properties/)
+- [Box Sizing](https://css-tricks.com/box-sizing/)
+- [CSS Selectors weight](https://www.standardista.com/cgi-sys/suspendedpage.cgi)
+- [CSS specificity calculator](https://www.codecaptain.io/tools/css-specificity-calculator)
+- [Play with CSS selector](https://frontend30.com/css-selectors-cheatsheet/)
 
 ## Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
@@ -45,28 +45,27 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - All your files should end with a new line
 - All your files should start by a comment describing the task
 - A README.md file, at the root of the folder of the project, is mandatory
-- Your code should be W3C compliant and validate with W3C-Validator
+- Your code should be W3C compliant and validate with [W3C-Validator](https://github.com/alx-tools/W3C-Validator)
 
-Files you need for the project
+## Files you need for the project
 favicon.jpg
-
-
-download favicon.jpg
+![favi](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x02-advanced_css/images/favicon.jpg)
+- download [favicon.jpg](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x02-advanced_css/images/favicon.jpg)
 
 logo-black.png
+![techiumblack](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x02-advanced_css/images/techiumb.png)
 
-
-download logo-black.png
+- download [logo-black.png](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x02-advanced_css/images/techiumb.png)
 
 logo-white.png
+![techiumwhite](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x02-advanced_css/images/techiumW.png)
 
-
-download logo-white.png
+- download [logo-white.png](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x02-advanced_css/images/techiumW.png)
 
 Store all these under a directory named “images”
 
 Use the following starter HTML file for your project.
-
+```html
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -423,9 +422,14 @@ Use the following starter HTML file for your project.
     </footer>
   </body>
 </html>
-You can save it in a index.html file and replace the <link rel='stylesheet' href='#'> by the right CSS file.
+```
+You can save it in a ``index.html`` file and replace the ``<link rel='stylesheet' href='#'>`` by the right CSS file.
 
-End goal of the project
+# End goal of the project
 
+- ![endgoal](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x02-advanced_css/images/end.png)
 
 Important note: details are important! lowercase vs uppercase / wrong letter… be careful!
+
+- [Quiz questions]()
+
