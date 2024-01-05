@@ -222,22 +222,26 @@ Before CSS Grid, developers were already using the word grid to define the respo
 
 ### Resources
 - [Floats Tutorial | HTML & CSS Is Hard]()
-- [960 Grid System]
-- [What are Frameworks? 22 Best Responsive CSS Frameworks for Web Design]
-- [All About Floats | CSS-Tricks]
-Pseudo Elements
-A CSS pseudo-element is a keyword added to a selector that lets you style a specific part of this element.
+- [960 Grid System](https://960.gs/)
+- [What are Frameworks? 22 Best Responsive CSS Frameworks for Web Design](https://www.awwwards.com/what-are-frameworks-22-best-responsive-css-frameworks-for-web-design.html)
+- [All About Floats | CSS-Tricks](https://css-tricks.com/all-about-floats/)
 
+## Pseudo Elements
+A CSS ``pseudo-element`` is a keyword added to a selector that lets you style a specific part of this element.
+```css
 selector::pseudo-class {
   property: value;
 }
-Resources
-Pseudo-elements - CSS: Cascading Style Sheets | MDN
-::before and ::after pseudo-elements explained - DEV Community 👩‍💻👨‍💻
-::after (:after) - CSS: Cascading Style Sheets | MDN
-A Single Div
-A new micro clearfix hack – Nicolas Gallagher
-Code example
+```
+### Resources
+- [Pseudo-elements - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
+- [::before and ::after pseudo-elements explained - DEV Community 👩‍💻👨‍💻](https://dev.to/ferueda/before-and-after-pseudo-elements-explained-156)
+- [::after (:after) - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/::after)
+- [A Single Div](https://a.singlediv.com/)
+- [A new micro clearfix hack – Nicolas Gallagher](https://nicolasgallagher.com/micro-clearfix-hack/)
+
+### Code example
+```css
 /* Add an arrow as the last child of the link */
 a::after {
   content: '→';
@@ -246,15 +250,19 @@ a::after {
 p::first-letter {
   font-size: 130%;
 }
-Attribute Selectors
+```
+
+## Attribute Selectors
 The attribute selectors allow you to target an attribute found on an HTML element.
 
-Resources
-Attribute selectors - CSS: Cascading Style Sheets | MDN
-attribute CSS-Tricks
-Splicing HTML’s DNA With CSS Attribute Selectors — Smashing Magazine
-Attribute Selectors | Codrops CSS Reference
-Code example
+### Resources
+- [Attribute selectors - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors)
+- [attribute CSS-Tricks](https://css-tricks.com/almanac/selectors/a/attribute/)
+- [Splicing HTML’s DNA With CSS Attribute Selectors — Smashing Magazine](https://www.smashingmagazine.com/2018/10/attribute-selectors-splicing-html-dna-css/)
+- [Attribute Selectors | Codrops CSS Reference](https://tympanus.net/codrops/css_reference/attribute-selectors/)
+
+### Code example
+```css
 /* Links with "facebook" anywhere in the URL */
 a[href*="facebook"] {
   color: #3C5A99;
@@ -267,23 +275,30 @@ a[href^="#"] {
 a[href$=".org"] {
   color: red;
 }
-Background
-Resources
-background - CSS: Cascading Style Sheets | MDN
-Code example
+```
+## Background
+### Resources
+- [background - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/background)
+
+### Code example
+```css
 .box {
   background: ;
 }
 lineargradient
 image
-Borders
+```
+
+## Borders
 The border shorthand CSS property sets an element’s border.
 
-Resources
-border - CSS: Cascading Style Sheets | MDN
-outline - CSS: Cascading Style Sheets | MDN
-border-radius | CSS-Tricks
-Code example
+### Resources
+- [border - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/border)
+- [outline - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/outline)
+- [border-radius | CSS-Tricks](https://css-tricks.com/almanac/properties/b/border-radius/)
+
+### Code example
+```css
 .box {
   display: block;
   padding: 1rem;
@@ -299,46 +314,56 @@ Code example
   border-width: 2px double orange;
   border-radius: 12px;
 }
-Position
+```
+
+## Position
 Positioning in CSS requires to use different CSS properties that allow you to position elements in your HTML webpage.
 
-Resources
-Positioning - CSS Reference
-CSS Positioning 101 – A List Apart
-A Detailed Look at the z-index CSS Property - Impressive Webs
-position | CSS-Tricks
-CSS Position Sticky - How It Really Works! - Elad Shechter - Medium
-Code example
+### Resources
+- [Positioning - CSS Reference](https://cssreference.io/positioning/)
+- [CSS Positioning 101 – A List Apart](https://alistapart.com/article/css-positioning-101/)
+- [A Detailed Look at the z-index CSS Property - Impressive Webs](https://www.impressivewebs.com/a-detailed-look-at-the-z-index-css-property/)
+- [position | CSS-Tricks](https://css-tricks.com/almanac/properties/p/position/)
+- [CSS Position Sticky - How It Really Works! - Elad Shechter - Medium](https://elad.medium.com/css-position-sticky-how-it-really-works-54cd01dc2d46)
+
+### Code example
+```css
 /* not 100% browser support yet, but could be user in some cases */
 .component {
   position: sticky;
   top: 0;
 }
-CSS Transform
+```
+
+## CSS Transform
 The transform CSS properties allow you to rotate, scale, skew, or translate an element.
 
-Resources
-transform - CSS: Cascading Style Sheets | MDN
-CSS Transform Functions Visualizer
-Code example
+### Resources
+- [transform - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)
+- [CSS Transform Functions Visualizer](https://css-transform.moro.es/)
+
+### Code example
+```css
 transform: perspective(17px);
 transform: rotate3d(1, 2.0, 3.0, 10deg);
 transform: translate(12px, 50%);
 transform: scale(2, 0.5);
 transform: skew(30deg, 20deg);
-CSS Animation
+```
+## CSS Animation
 The animation CSS properties allow you to animate other property of an element.
 
-Warning!
+**Warning!**
 Animation is a shorthand property. Only animation-duration and animation-name are required.
 
 ### Resources
-CSS Animations - CSS: Cascading Style Sheets | MDN
-Using CSS animations - CSS: Cascading Style Sheets | MDN
-Awesome CSS3 animation
-Animate.css
-The best CSS animation examples to recreate | Creative Bloq
-Code example
+- [CSS Animations - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations)
+- [Using CSS animations - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
+- [Awesome CSS3 animation](https://pavlyukpetr.com/awesome/)
+- [Animate.css](https://animate.style/)
+- [The best CSS animation examples to recreate | Creative Bloq](https://www.creativebloq.com/inspiration/css-animation-examples)
+
+### Code example
 ```css
 @keyframes example {
   from {
