@@ -553,49 +553,49 @@ Repo:
 
 Based on styles/6-style.css:
 
-Add Open Sans as the first choice font for font-family-base, with the previous fonts shifted down accordingly
-Add Raleway as the first choice font for font-family-title, with the previous fonts shifted down accordingly
-Does not need to pass w3c
+- Add Open Sans as the first choice font for font-family-base, with the previous fonts shifted down accordingly
+- Add Raleway as the first choice font for font-family-title, with the previous fonts shifted down accordingly
+**Does not need to pass w3c**
 
 Repo:
 
-GitHub repository: alx-frontend
-Directory: 0x02-CSS_advanced
-File: styles/7-style.css
+- GitHub repository: alx-frontend
+- Directory: 0x02-CSS_advanced
+- File: styles/7-style.css
   
-8. Defining line heights
-mandatory
+## Task 8. Defining line heights
+
 Based on styles/7-style.css:
 
-Targeting root, create the following custom properties:
-line-height-small set to 1.2
-line-height-base set to 1.5
-line-height-big set to 1.8
-Set the minimum height of line boxes in the body to line-height-base
-Does not need to pass w3c
+- Targeting root, create the following custom properties:
+	- line-height-small set to 1.2
+	- line-height-base set to 1.5
+	- line-height-big set to 1.8
+- Set the minimum height of line boxes in the body to line-height-base
+**Does not need to pass w3c**
 
 Repo:
 
-GitHub repository: alx-frontend
-Directory: 0x02-CSS_advanced
-File: styles/8-style.css
+- GitHub repository: alx-frontend
+- Directory: 0x02-CSS_advanced
+- File: styles/8-style.css
   
-9. Links are decorated by default, time to remove them
-mandatory
+## Task 9. Links are decorated by default, time to remove them
+
 Based on styles/8-style.css
 
 Style the anchor elements so the text isn’t decorated with anything
 
-Does not need to pass w3c
+**Does not need to pass w3c**
 
 Repo:
 
-GitHub repository: alx-frontend
-Directory: 0x02-CSS_advanced
-File: styles/9-style.css
+- GitHub repository: alx-frontend
+- Directory: 0x02-CSS_advanced
+- File: styles/9-style.css
   
-10. Centering the section titles
-mandatory
+## Task 10. Centering the section titles
+
 Based on styles/9-style.css:
 
 Create a new custom property section-header-align and set it to center
