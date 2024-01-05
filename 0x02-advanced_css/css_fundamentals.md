@@ -93,7 +93,7 @@ If a browser is parsing your rules, and encounters a property or value that it d
 For this reason, it’s a good idea to [validate your CSS](https://jigsaw.w3.org/css-validator/#validate_by_input). This way, you’ll know right away if something is wrong.
 
 Tip: A browser’s developer tools can also highlight invalid property names or values.
-![css]()
+![css](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x02-advanced_css/images/css.png)
 
  Inspecting a heading element with an invalid value using Google Chrome Developer Tools.
 
