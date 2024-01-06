@@ -1376,38 +1376,40 @@ You should now be able to easily view the website on a device of any screen/wind
 
 **Rendering on screen with max-width: 767px**
 
-![works2]()
+![works2](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x03-responsive_design/images/works2.png)
 
 
-Rendering on screen with max-width: 767px, you can see the navbar is hidden
+**Rendering on screen with max-width: 767px, you can see the navbar is hidden**
+
+![works3](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x03-responsive_design/images/workss.png)
 
 
 
 Repo:
 
-GitHub repository: alx-frontend
-Directory: 0x03-responsive_design
-File: 02-1-styles.css, 02-1-index.html
+- GitHub repository: alx-frontend
+- Directory: 0x03-responsive_design
+- File: 02-1-styles.css, 02-1-index.html
  
-3. Generate images with responsive breakpoints
-mandatory
-Go to Responsive Breakpoints
+## Task 3. Generate images with responsive breakpoints
+
+Go to [Responsive Breakpoints](https://www.responsivebreakpoints.com/)
 
 In Breakpoints generation settings:
 
-Resolution: From 380 to 1200
-Size step: 25
-Maximum images: 3
-Art-direction: Desktops
-Upload your images one at a time:
-pic-about-01.jpg
-pic-article-01.jpg
-pic-article-02.jpg
-pic-article-03.jpg
-Copy the markup for the <img> tags and replace your current <img> tags with it.
-Download the images and place them into the images directory
+- Resolution: From 380 to 1200
+- Size step: 25
+- Maximum images: 3
+- Art-direction: Desktops
+- Upload your images one at a time:
+	- pic-about-01.jpg
+	- pic-article-01.jpg
+	- pic-article-02.jpg
+	- pic-article-03.jpg
+- Copy the markup for the ``<img>`` tags and replace your current ``<img>`` tags with it.
+- Download the images and place them into the images directory
 Here’s an example on how to add different resolutions of the same image
-
+```css
 <img
     sizes="(max-width: 3000px) 40vw, 1200px"
     srcset="
@@ -1416,175 +1418,177 @@ Here’s an example on how to add different resolutions of the same image
       about-us_icoxoo_c_scale,w_1200.jpg 1200w"
     src="about-us_icoxoo_c_scale,w_1200.jpg"
     alt="">
+```
 Repo:
 
-GitHub repository: alx-frontend
-Directory: 0x03-responsive_design
-File: 03-index.html, 03-styles.css
+- GitHub repository: alx-frontend
+- Directory: 0x03-responsive_design
+- File: 03-index.html, 03-styles.css
  
-4. Create the mobile icon and hide the menu
-mandatory
+## Task 4. Create the mobile icon and hide the menu
+
 We want to have a clickable icon that shows and hide our navigation. We don’t want to use JavaScript but find a pure HTML / CSS way. We learned that input type checkbox have a checked - unchecked state. So we are going to use this for our menu.
 
 Using the previous files as the base for this project
 
-Changes to the HTML
+**Changes to the HTML**
 
-Just before the <nav class="navbar-menu">
+Just before the ``<nav class="navbar-menu">``
 
-Create an input (which will be not visible)
+- Create an input (which will be not visible)
 
-Class: menu-btn
-Type: checkbox
-Id: menu-btn
-Create a label
+	- Class: menu-btn
+	- Type: checkbox
+	- Id: menu-btn
+- Create a label
 
-Class: menu-icon
-For: menu-btn
-In the label create an empty span with the navicon class.
-Changes to the CSS
+	- Class: menu-icon
+	- For: menu-btn
+	- In the label create an empty span with the navicon class.
+**Changes to the CSS**
 
 Inside the /* Navbar section, and inside the 767px media query
 
-Create the root global selector. We want to override a CSS variable:
+- Create the root global selector. We want to override a CSS variable:
+	
+	- Variable name: nav-item-margin, Value: 0
+- In the selector for the navbar-menu class
 
-Variable name: nav-item-margin, Value: 0
-In the selector for the navbar-menu class
+	- Property: flex, Value: 1
+- Target the nav class in header class
 
-Property: flex, Value: 1
-Target the nav class in header class
+	- Property: flex-direction, Value: column (for the element of the menu be below each other)
+	- Property: overflow, Value: hidden
+	- Property: max-height, Value: 0 (the display property can’t be animated, so we use the height that can be animated)
+	- Property: transition, Value: max-height .2s ease-out
+**Rendering on screen with max-width: 767px, the check box is the input**
 
-Property: flex-direction, Value: column (for the element of the menu be below each other)
-Property: overflow, Value: hidden
-Property: max-height, Value: 0 (the display property can’t be animated, so we use the height that can be animated)
-Property: transition, Value: max-height .2s ease-out
-Rendering on screen with max-width: 767px, the check box is the input
-
-
+- ![task4](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x03-responsive_design/images/task4.png)
 
 Repo:
 
-GitHub repository: alx-frontend
-Directory: 0x03-responsive_design
-File: 04-index.html, 04-styles.css
+- GitHub repository: alx-frontend
+- Directory: 0x03-responsive_design
+- File: 04-index.html, 04-styles.css
  
-5. Hamburger!
-mandatory
+## Task 5. Hamburger!
+
 Let’s now, use a little bit of CSS magic to create an “hamburger” icon just with CSS.
 
 Using the previous files as the base for this task:
 
-Target the menu-icon class inside the header class
+- Target the menu-icon class inside the header class
 
-Property: cursor, Value: pointer
-Property: padding, Value: 2.5rem
-Property: position, Value: relative
-Property: user-select, Value: none
-Target the navicon class inside themenu-icon class which is inside the header class
+	- Property: cursor, Value: pointer
+	- Property: padding, Value: 2.5rem
+	- Property: position, Value: relative
+	- Property: user-select, Value: none
+- Target the navicon class inside themenu-icon class which is inside the header class
 
-Property: background, Value: point to the color-white variable
-Property: display, Value: block
-Property: width, Value: 2rem
-Property: height, Value: .2rem
-Property: position, Value: relative
-Property: transition, Value: background .2s ease-out
-Target the before and after pseudo elements of the navicon class inside the menu-icon class which is inside the header class
+	- Property: background, Value: point to the color-white variable
+	- Property: display, Value: block
+	- Property: width, Value: 2rem
+	- Property: height, Value: .2rem
+	- Property: position, Value: relative
+	- Property: transition, Value: background .2s ease-out
+- Target the before and after pseudo elements of the navicon class inside the menu-icon class which is inside the header class
 
-Property: content, Value: empty string
-Property: display, Value: block
-Property: width, Value: 100%
-Property: height, Value: 100%
-Property: position, Value: absolute
-Property: background, Value: point to the color-white variable
-Property: transition, Value: all .2s ease-out
-Target only the before pseudo element of the navicon class inside the menu-icon class which is inside the header class
+	- Property: content, Value: empty string
+	- Property: display, Value: block
+	- Property: width, Value: 100%
+	- Property: height, Value: 100%
+	- Property: position, Value: absolute
+	- Property: background, Value: point to the color-white variable
+	- Property: transition, Value: all .2s ease-out
+- Target only the before pseudo element of the navicon class inside the menu-icon class which is inside the header class
 
-Property: top, Value: .7rem
-Target only the after pseudo element of the navicon class inside the menu-icon class which is inside the header class
+	- Property: top, Value: .7rem
+- Target only the after pseudo element of the navicon class inside the menu-icon class which is inside the header class
 
-Property: top, Value: -.7rem
-Rendering of the hamburger on max-width: 767px
+	- Property: top, Value: -.7rem
 
+**Rendering of the hamburger on max-width: 767px**
 
+- ![task5](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x03-responsive_design/images/task5.png)
 
 Repo:
 
-GitHub repository: alx-frontend
-Directory: 0x03-responsive_design
-File: 05-index.html, 05-styles.css
+- GitHub repository: alx-frontend
+- Directory: 0x03-responsive_design
+- File: 05-index.html, 05-styles.css
  
-6. Add the behavior based on menu-btn state
-mandatory
-in your CSS file:
+## Task 6. Add the behavior based on menu-btn state
 
-Create a new comment section /* menu btn */
-Target menu-btn class inside header class
-Property: display, Value: none
-Target navbar-menu class when the menu-btn class element is checked
-Property: display, Value: block
-Target nav class inside navbar-menu class when the menu-btn class element is checked
+**in your CSS file:**
 
-Property: max-height, Value: 100%
-Property: overflow, Value: inherit
-At the end of the /* Section HERO section, create a new media query for max-width: 767px
+- Create a new comment section /* menu btn */
+- Target menu-btn class inside header class
+	- Property: display, Value: none
+- Target navbar-menu class when the menu-btn class element is checked
+	- Property: display, Value: block
+- Target nav class inside navbar-menu class when the menu-btn class element is checked
 
-Target the section-hero class
-Property: margin, Value: -0.1rem 0
-Target the hero-homepage class
-Property: background-position, Value: 85% 0
-Target the section-body class inside section-hero class
-Property: padding, Value: 2rem
+	- Property: max-height, Value: 100%
+	- Property: overflow, Value: inherit
+- At the end of the /* Section HERO section, create a new media query for max-width: 767px
+
+	- Target the section-hero class
+		- Property: margin, Value: -0.1rem 0
+	- Target the hero-homepage class
+		- Property: background-position, Value: 85% 0
+	- Target the section-body class inside section-hero class
+		- Property: padding, Value: 2rem
 Going back to the /* menu btn */ section
 
-Target the navicon class inside menu-icon class sibling to the menu-btn when it is checked and inside header class
-Property: background, Value: transparent
-Target the before state of navicon class inside menu-icon class sibling to the menu-btn when it is checked and inside header class element
-Property: transform, Value: rotate(-45deg)
-Target the after state of navicon class inside menu-icon class sibling to the menu-btn when it is checked and inside header class element
-Property: transform, Value: rotate(45deg)
-Target the before and after states of navicon class when inside menu-icon class sibling to the menu-btn class when it is checked and inside header class
+- Target the navicon class inside menu-icon class sibling to the menu-btn when it is checked and inside header class
+	- Property: background, Value: transparent
+- Target the before state of navicon class inside menu-icon class sibling to the menu-btn when it is checked and inside header class element
+	- Property: transform, Value: rotate(-45deg)
+- Target the after state of navicon class inside menu-icon class sibling to the menu-btn when it is checked and inside header class element
+	- Property: transform, Value: rotate(45deg)
+- Target the before and after states of navicon class when inside menu-icon class sibling to the menu-btn class when it is checked and inside header class
 
-Property: top, Value: 0
-Create a new media query for max-width: 767px
+	- Property: top, Value: 0
+- Create a new media query for max-width: 767px
 
-Target the root and redefine the header-padding variable with 2rem 0 0
-Target header class
-Property: background, Value: point to the color-black variable
-Target the header-container class
-Property: flex-wrap, Value: wrap
-Property: padding, Value: 0 1.5rem
-Target the menu-icon class inside the header class
-Property: display, Value: block
-Create a new media query for max-width: 480px
+	- Target the root and redefine the header-padding variable with 2rem 0 0
+	- Target header class
+		- Property: background, Value: point to the color-black variable
+	- Target the header-container class
+		- Property: flex-wrap, Value: wrap
+		- Property: padding, Value: 0 1.5rem
+	- Target the menu-icon class inside the header class
+		- Property: display, Value: block
+- Create a new media query for max-width: 480px
 
-Target the header-logo class
-Property: flex-basis, Value: 70%
-Create a new media query with min-width: 481px and max-width: 767px
+	- Target the header-logo class
+		- Property: flex-basis, Value: 70%
+- Create a new media query with min-width: 481px and max-width: 767px
+	
+	- Target the header-logo class
+		- Property: flex-basis, Value: 79%
+- Find the .header .menu-icon selector and add display: none; to hide the menu icon when we are on desktop mode.
 
-Target the header-logo class
-Property: flex-basis, Value: 79%
-Find the .header .menu-icon selector and add display: none; to hide the menu icon when we are on desktop mode.
+**Rendering on screen with max-width: 767px, when the input is unchecked the menu is not displayed**
 
-Rendering on screen with max-width: 767px, when the input is unchecked the menu is not displayed
+![task6](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x03-responsive_design/images/task6.png)
 
-
-
-Rendering on screen with max-width: 767 px, when input is checked the menu block is displayed
-
-
-
-Rendering on desktop screen, menu icon is not visible
+**Rendering on screen with max-width: 767 px, when input is checked the menu block is displayed**
+![task6b](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x03-responsive_design/images/task6b.png)
 
 
+**Rendering on desktop screen, menu icon is not visible**
+
+![task6c](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x03-responsive_design/images/task6c.png)
 
 Repo:
 
-GitHub repository: alx-frontend
-Directory: 0x03-responsive_design
-File: 06-index.html, 06-styles.css
+- GitHub repository: alx-frontend
+- Directory: 0x03-responsive_design
+- File: 06-index.html, 06-styles.css
  
-7. Make the font size responsive
-mandatory
+## Task 7. Make the font size responsive
+
 We have multiple ways to make the typography responsive. The basic way would be to create multiple media queries and set a different font-size. But because we are using REM that are based on 62.5% (defined in the html selector). Changing that value would change proportionally all font sizes.
 
 In your CSS file at the end of the /* Base section
