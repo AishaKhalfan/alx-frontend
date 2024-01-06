@@ -5,7 +5,7 @@
 ## Concepts
 For this project, we expect you to look at this concept:
 
-- [Responsive web design]()
+- [Responsive web design](https://github.com/AishaKhalfan/alx-frontend/blob/master/0x03-responsive_design/responsive_design.md)
 
 
 ## Resources
