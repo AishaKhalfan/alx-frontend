@@ -40,6 +40,9 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 ## Starter files
 **00-index.html**
+
+<details>
+<summary>Click to expand/hide file contents </summary>
 ```HTML
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -412,6 +415,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
   </body>
 </html>
 ```
+</details>
 
 - **00-styles.css**
 
