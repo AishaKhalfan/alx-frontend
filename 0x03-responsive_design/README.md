@@ -1289,7 +1289,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 ## Images
 Use the images that you downloaded in the ``CSS Advanced`` project and place them into an images directory at the root of the project.
 
-Or some basics assets from this [archive.zip]()
+Or some basics assets from this [archive.zip](https://github.com/AishaKhalfan/alx-frontend/tree/master/0x03-responsive_design/images)
 
 # Tasks
 ## Task 0. Fix the hero banner
