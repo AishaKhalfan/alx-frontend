@@ -1594,80 +1594,80 @@ We have multiple ways to make the typography responsive. The basic way would be 
 In your CSS file at the end of the /* Base section
 
 Create a new media query for max-width: 480px
-Target the html element
-Property: font-size, Value: 57%
+- Target the html element
+	- Property: font-size, Value: 57%
 Create a new media query for min-width: 481px and max-width: 767px
-Target the html element
-Property: font-size, Value 60%
+- Target the html element
+	- Property: font-size, Value 60%
 This is a simple way to achieve responsive typography. More complex options can also be used to have a more granular control over the font sizes.
 
 Repo:
 
-GitHub repository: alx-frontend
-Directory: 0x03-responsive_design
-File: 07-index.html, 07-styles.css
+- GitHub repository: alx-frontend
+- Directory: 0x03-responsive_design
+- File: 07-index.html, 07-styles.css
  
-8. Improve the "Works" section
-mandatory
+## Task 8. Improve the "Works" section
+
 in 08-styles.css, at the end of the /* Card WORK
 
 Create a new media query of max-width: 767px
-Target the card-inner class inside the card-work class
-Property: variable called text-color, Value: point to color-white variable
-Property: position, Value: relative
-Target the card-title class inside the card-work class
-Property: opacity, Value: 1
-Target all a tags inside .card-work .card-title class:
-Property: padding, Value: 2rem 1rem 0 1rem
-Rendering on screen of max-width: 767px
+- Target the card-inner class inside the card-work class
+	- Property: variable called text-color, Value: point to color-white variable
+	- Property: position, Value: relative
+- Target the card-title class inside the card-work class
+	- Property: opacity, Value: 1
+- Target all a tags inside .card-work .card-title class:
+	- Property: padding, Value: 2rem 1rem 0 1rem
+	- Rendering on screen of max-width: 767px
 
 
 
 Repo:
 
-GitHub repository: alx-frontend
-Directory: 0x03-responsive_design
-File: 08-index.html, 08-styles.css
+- GitHub repository: alx-frontend
+- Directory: 0x03-responsive_design
+- File: 08-index.html, 08-styles.css
  
-9. Improve the "Footer" section
-mandatory
+## Task 9. Improve the "Footer" section
+
 in 09-styles.css, in the /* Footer section
 
-Create a new media query of max-width: 767px.
-Create the root global selector. We want to override a CSS variable:
-Variable name: footer-padding, Value: 5rem 2rem 1rem
-Target .social.nav inside the footer class and the footer-nav class inside the footer class
-Property: text-align, Value: center
-Target the adjacent lito the li inside the .social.nav and the adjacent li to the li inside .footer-nav (to easily add a left padding starting on the second li)
-Property: padding-left, Value:2rem
-Rendering on screen of max-width: 767px
+- Create a new media query of max-width: 767px.
+- Create the root global selector. We want to override a CSS variable:
+- Variable name: footer-padding, Value: 5rem 2rem 1rem
+- Target .social.nav inside the footer class and the footer-nav class inside the footer class
+- Property: text-align, Value: center
+- Target the adjacent lito the li inside the .social.nav and the adjacent li to the li inside .footer-nav (to easily add a left padding starting on the second li)
+- Property: padding-left, Value:2rem
+- Rendering on screen of max-width: 767px
 
 
 
 Repo:
 
-GitHub repository: alx-frontend
-Directory: 0x03-responsive_design
-File: 09-index.html, 09-styles.css
+- GitHub repository: alx-frontend
+- Directory: 0x03-responsive_design
+- File: 09-index.html, 09-styles.css
  
-10. Fix the top header background
-mandatory
+## Task 10. Fix the top header background
+
 In 10-index.html, in the body tag, add the class article-page
 
 In 10-styles.css, in the /* Section HERO section, just before the media query:
 
-Target section-hero class inside article-page class
-Property: margin-top, Value: -8.5rem
-Property: padding-top, Value: 5rem
-Rendering of header and section-hero class elements
+- Target section-hero class inside article-page class
+- Property: margin-top, Value: -8.5rem
+- Property: padding-top, Value: 5rem
+- Rendering of header and section-hero class elements
 
 
 
 Repo:
 
-GitHub repository: alx-frontend
-Directory: 0x03-responsive_design
-File: 10-index.html, 10-styles.css
+- GitHub repository: alx-frontend
+- Directory: 0x03-responsive_design
+- File: 10-index.html, 10-styles.css
  
 Copyright © 2024 ALX, All rights reserved.
 
