@@ -415,7 +415,9 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 - **00-styles.css**
 
-<details><summary>Click to expand/hide file contents </summary>
+<details>
+<summary>Click to expand/hide file contents </summary>
+
 ```CSS
 /* SUMMARY
 1. GLOBAL
